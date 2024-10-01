@@ -22,3 +22,5 @@ website:
 format:
   html:
     theme: sandstone
+execute:
+  freeze: auto
