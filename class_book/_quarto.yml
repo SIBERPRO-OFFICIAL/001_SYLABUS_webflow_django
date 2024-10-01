@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "siberpro"
+  description: "di kelas ini kamu akan belajar tentang pembuatan webflow secara mendasar, mulai dari apa itu html dan css, membuat halaman web sederhana dengan html dan css dan akan dilanjutkan dengan membuat landing page interactive dengan webflow"
+  navbar:
+    search: true
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/SIBERPRO-OFFICIAL
+      - icon: twitter
+        href: https://twitter.com/siberpro
+      - icon: linkedin
+        href: https://linkedin.com/in/siberpro
+  sidebar:
+    contents: auto
+    style: floating
+  back-to-top-navigation: true
+  reader-mode: true
+format:
+  html:
+    theme: sandstone

@@ -1,0 +1,17 @@
+---
+title: "About"
+publish: true
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/siberpro
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/siberpro
+    - icon: github
+      text: Github
+      href: https://github.com/SIBERPRO-OFFICIAL
+
+---
