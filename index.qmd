@@ -1,14 +1,15 @@
 ---
 title: "membuat responsive landing page dengan webflow"
-listing:
-  contents:
-    - "Hari 1"
-    - "Hari 2"
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+date: 10/01/2024
+author: Sulthan A. Karimov
+categories: []
+draft: false
+show: true
+freeze: true
 ---
+
+selamat datang di kelas **membuat responsive landing page dengan webflow**, di kelas ini kamu akan belajar dasar-dasar pembuatan web mulai dari pembuatan website static dengan html dan css hingga deployment website landing page responsive dengan django. yeay...
+
+metode pembelajaran di kelas ini adalah **self learning**, artinya kamu bisa menentukan sendiri materi apa yang akan dipelajari lebih dulu dan waktu yang kamu butuhkan untuk menyelesaikan kelas ini.
+
+di sebelah kiri halaman ini kamu bisa temukan sidebar navigasi yang akan membantu kamu dalam menavigasi halaman dari keseluruhan kelas. 

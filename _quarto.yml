@@ -15,12 +15,20 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/siberpro
   sidebar:
-    contents: auto
     style: floating
+    contents:
+      - text: Daftar Isi
+      - section: "Hari #1"
+        contents:
+          - Hari 1/git_for_beginner.qmd
+          - Hari 1/html_css_for_beginner.qmd
+          - Hari 1/landing_page_with_webflow.qmd
+        
   back-to-top-navigation: true
   reader-mode: true
 format:
   html:
     theme: sandstone
+    css: styles.css
 execute:
   freeze: auto
