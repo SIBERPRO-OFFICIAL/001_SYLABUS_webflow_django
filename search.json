@@ -4,10 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "About"
-    ]
+    "text": "Back to top"
   },
   {
     "objectID": "Hari 1/html_css_for_beginner.html",
@@ -17,7 +14,7 @@
     "text": "Back to top",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "HTML dan CSS dasar"
     ]
   },
@@ -29,7 +26,7 @@
     "text": "Back to top",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Version Control dengan Git"
     ]
   },
@@ -38,7 +35,7 @@
     "href": "index.html",
     "title": "membuat responsive landing page dengan webflow",
     "section": "",
-    "text": "Version Control dengan Git\n\n\n\n\n\n\ngit\n\n\nversion control\n\n\nvcs\n\n\n\ndi module ini kamu akan belajar tentang version control menggunakan git\n\n\n\n\n\nOct 1, 2024\n\n\nSulthan A. Karimov\n\n\n\n\n\n\n\n\n\n\n\n\nHTML dan CSS dasar\n\n\n\n\n\n\nhtml\n\n\ncss\n\n\nweb development\n\n\n\ndi module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS\n\n\n\n\n\nOct 1, 2024\n\n\nSulthan A. Karimov\n\n\n\n\n\n\n\n\n\n\n\n\nDjango Web Framework - Web Framework for a Perfectionist with Deadline\n\n\n\n\n\n\ndjango\n\n\npython\n\n\nweb framework\n\n\nweb development\n\n\n\ndi module ini kita akan belajar tentang dasar-dasar membuat aplikasi web dengan django\n\n\n\n\n\nOct 1, 2024\n\n\nSulthan A. Karimov\n\n\n\n\n\n\n\n\n\n\n\n\nMembuat Responsive Landing Page dengan Webflow\n\n\n\n\n\n\ndjango\n\n\nwebflow\n\n\nlanding page\n\n\n\ndi module ini kamu akan belajar tentang landing page dan bagaimana membangun landing page pertamamu dengan webflow\n\n\n\n\n\nSep 23, 2024\n\n\nSulthan A. Karimov\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "selamat datang di kelas membuat responsive landing page dengan webflow, di kelas ini kamu akan belajar dasar-dasar pembuatan web mulai dari pembuatan website static dengan html dan css hingga deployment website landing page responsive dengan django. yeay…\nmetode pembelajaran di kelas ini adalah self learning, artinya kamu bisa menentukan sendiri materi apa yang akan dipelajari lebih dulu dan waktu yang kamu butuhkan untuk menyelesaikan kelas ini.\ndi sebelah kiri halaman ini kamu bisa temukan sidebar navigasi yang akan membantu kamu dalam menavigasi halaman dari keseluruhan kelas.\n\n\n\n Back to top"
   },
   {
     "objectID": "Hari 1/landing_page_with_webflow.html",
@@ -48,7 +45,7 @@
     "text": "Your Bussiness Terace\n\n\na landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement\n\n\n\n\n\n\n\n\ntimeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.\n\n\n\n\n\n\n\n\n\n\n\n\nModern Landing Page",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -60,7 +57,7 @@
     "text": "a landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -72,7 +69,7 @@
     "text": "timeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -84,7 +81,7 @@
     "text": "Modern Landing Page",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -96,7 +93,7 @@
     "text": "Django 2\n\nWeb Framework For Perfectionist with Deadline\n\nDjango is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -108,7 +105,7 @@
     "text": "Why Django? 3\n\nCompleteVersatileSecureScalableMaintainablePortable\n\n\nDjango follows the “Batteries included” philosophy and provides almost everything developers might want to do “out of the box”. Because everything you need is part of the one “product”, it all works seamlessly together, follows consistent design principles, and has extensive and up-to-date documentation.\n\n\nDjango can be (and has been) used to build almost any type of website — from content management systems and wikis, through to social networks and news sites. It can work with any client-side framework, and can deliver content in almost any format (including HTML, RSS feeds, JSON, and XML).\nInternally, while it provides choices for almost any functionality you might want (e.g. several popular databases, templating engines, etc.), it can also be extended to use other components if needed.\n\n\nDjango helps developers avoid many common security mistakes by providing a framework that has been engineered to “do the right things” to protect the website automatically. For example, Django provides a secure way to manage user accounts and passwords, avoiding common mistakes like putting session information in cookies where it is vulnerable (instead cookies just contain a key, and the actual data is stored in the database) or directly storing passwords rather than a password hash.\nA password hash is a fixed-length value created by sending the password through a cryptographic hash function. Django can check if an entered password is correct by running it through the hash function and comparing the output to the stored hash value. However due to the “one-way” nature of the function, even if a stored hash value is compromised it is hard for an attacker to work out the original password.\nDjango enables protection against many vulnerabilities by default, including SQL injection, cross-site scripting, cross-site request forgery and clickjacking (see Website security for more details of such attacks).\n\n\nDjango uses a component-based “shared-nothing” architecture (each part of the architecture is independent of the others, and can hence be replaced or changed if needed). Having a clear separation between the different parts means that it can scale for increased traffic by adding hardware at any level: caching servers, database servers, or application servers. Some of the busiest sites have successfully scaled Django to meet their demands (e.g. Instagram and Disqus, to name just two).\n\n\nDjango code is written using design principles and patterns that encourage the creation of maintainable and reusable code. In particular, it makes use of the Don’t Repeat Yourself (DRY) principle so there is no unnecessary duplication, reducing the amount of code. Django also promotes the grouping of related functionality into reusable “applications” and, at a lower level, groups related code into modules (along the lines of the Model View Controller (MVC) pattern).\n\n\nDjango is written in Python, which runs on many platforms. That means that you are not tied to any particular server platform, and can run your applications on many flavors of Linux, Windows, and macOS. Furthermore, Django is well-supported by many web hosting providers, who often provide specific infrastructure and documentation for hosting Django sites.",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -120,7 +117,7 @@
     "text": "Initialize Django App\n\ninstallationstart projectstart appcreate simple lead generator app",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -132,7 +129,7 @@
     "text": "Run Local Django Server\n\nfinally…\n\npython manage.py runserver",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -144,7 +141,7 @@
     "text": "Webflow\n\nbringing development superpowers to everyone.",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -156,7 +153,7 @@
     "text": "For Designer or Developer?\n\nfor designer with minor coding background and developer with minor design background",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -168,7 +165,7 @@
     "text": "Create first Landing Page in Webflow\n\nhttps://tapak-landing-page.webflow.io/",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -180,7 +177,7 @@
     "text": "Export Webflow Code to HTML\n\nPaid - Subscribe to premium member \nFree - Download the HTML page",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -192,7 +189,7 @@
     "text": "Integrate Webflow site to be Django Template",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -204,7 +201,7 @@
     "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Landing_page↩︎\nhttps://www.djangoproject.com/↩︎\nhttps://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction↩︎",
     "crumbs": [
       "About",
-      "Hari 1",
+      "Hari #1",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -213,11 +210,6 @@
     "href": "Hari 1/django_for_beginner.html",
     "title": "Django Web Framework - Web Framework for a Perfectionist with Deadline",
     "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "About",
-      "Hari 1",
-      "Django Web Framework - Web Framework for a Perfectionist with Deadline"
-    ]
+    "text": "Back to top"
   }
 ]
