@@ -1,6 +1,6 @@
 ---
 title: Membuat Responsive Landing Page dengan Webflow
-description: di kelas ini kamu akan belajar tentang landing page dan bagaimana membangun landing page pertamamu dengan webflow
+description: di module ini kamu akan belajar tentang landing page dan bagaimana membangun landing page pertamamu dengan webflow
 date: 09/23/2024
 author: Sulthan A. Karimov
 categories: [django, webflow, landing page]
