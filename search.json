@@ -1,5 +1,17 @@
 [
   {
+    "objectID": "Hari 2/praktek_landing_page_webflow.html",
+    "href": "Hari 2/praktek_landing_page_webflow.html",
+    "title": "Live Session - Membuat Responsive Landing Page dengan Webflow",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "About",
+      "Praktek Membuat Landing Page Dengan Webflow",
+      "Live Session - Membuat Responsive Landing Page dengan Webflow"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -9,13 +21,13 @@
   {
     "objectID": "Hari 1/html_css_for_beginner.html",
     "href": "Hari 1/html_css_for_beginner.html",
-    "title": "HTML dan CSS dasar",
+    "title": "HTML dan CSS untuk Pemula",
     "section": "",
     "text": "Back to top",
     "crumbs": [
       "About",
-      "Hari #1",
-      "HTML dan CSS dasar"
+      "Materi Membuat Landing Page Dengan Webflow",
+      "HTML dan CSS untuk Pemula"
     ]
   },
   {
@@ -26,8 +38,8 @@
     "text": "Back to top",
     "crumbs": [
       "About",
-      "Hari #1",
-      "Version Control dengan Git"
+      "Materi Membuat Landing Page Dengan Webflow",
+      "optional : git for beginner"
     ]
   },
   {
@@ -35,7 +47,33 @@
     "href": "index.html",
     "title": "membuat responsive landing page dengan webflow",
     "section": "",
-    "text": "selamat datang di kelas membuat responsive landing page dengan webflow, di kelas ini kamu akan belajar dasar-dasar pembuatan web mulai dari pembuatan website static dengan html dan css hingga deployment website landing page responsive dengan django. yeay…\nmetode pembelajaran di kelas ini adalah self learning, artinya kamu bisa menentukan sendiri materi apa yang akan dipelajari lebih dulu dan waktu yang kamu butuhkan untuk menyelesaikan kelas ini.\ndi sebelah kiri halaman ini kamu bisa temukan sidebar navigasi yang akan membantu kamu dalam menavigasi halaman dari keseluruhan kelas.\n\n\n\n Back to top"
+    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di modul ini, kita akan belajar bersama-sama bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nKenapa Webflow? Karena platform ini memberikan kita kebebasan untuk mendesain tanpa perlu coding yang rumit. Kita bisa langsung melihat hasil desain kita secara real-time, dan yang paling penting, landing page yang kita buat akan terlihat sempurna di semua perangkat, mulai dari smartphone hingga layar lebar.\nApa yang akan kita pelajari?\n\nDasar-dasar Webflow: Mengenal antarmuka, komponen dasar, dan cara kerjanya.\nDesain UI/UX: Membuat tampilan yang menarik dan pengalaman pengguna yang seamless.\nResponsivitas: Memastikan desain kita terlihat sempurna di semua ukuran layar.\nAnimasi: Menambahkan efek animasi yang keren untuk membuat landing page kita lebih hidup.\nIntegrasi: Menghubungkan landing page kita dengan berbagai platform seperti CMS, email marketing, dan lainnya.\n\nMengapa Landing Page itu Penting?\nLanding page adalah pintu gerbang pertama pengunjung ke website kita. Dengan landing page yang baik, kita bisa:\n\nMeningkatkan konversi: Mengubah pengunjung menjadi pelanggan.\nMembangun brand awareness: Memperkenalkan merek kita kepada audiens yang lebih luas.\nMengukur performa: Melacak kinerja landing page kita dan melakukan perbaikan.\n\nSiap untuk memulai petualangan desain web kita? Yuk, kita sama-sama belajar, bereksperimen, dan menciptakan landing page yang luar biasa!\nTips:\n\nJangan ragu untuk bertanya: Setiap pertanyaan adalah kesempatan untuk belajar lebih banyak.\nPraktikkan secara rutin: Semakin sering kamu berlatih, semakin mahir kamu akan menjadi.\nBerbagi adalah peduli: Bagikan pengetahuanmu dengan teman-teman sesama pejuang siber.\n\nMari kita mulai!\n[Tambahkan di sini: Link ke modul pertama atau tugas pertama]\n#Webflow #LandingPage #DesainWeb #PejuangSiber\n[Tambahkan gambar atau GIF yang menarik untuk mempercantik halaman]\nP.S: Jangan lupa siapkan kopi atau teh kesukaanmu, ya!\nBagaimana menurutmu, Pejuang Siber? Apakah ada yang ingin ditambahkan atau diubah pada halaman pendahuluan ini?",
+    "crumbs": [
+      "About",
+      "Pendahuluan"
+    ]
+  },
+  {
+    "objectID": "index.html#selamat-datang-pejuang-siber",
+    "href": "index.html#selamat-datang-pejuang-siber",
+    "title": "membuat responsive landing page dengan webflow",
+    "section": "",
+    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di modul ini, kita akan belajar bersama-sama bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nKenapa Webflow? Karena platform ini memberikan kita kebebasan untuk mendesain tanpa perlu coding yang rumit. Kita bisa langsung melihat hasil desain kita secara real-time, dan yang paling penting, landing page yang kita buat akan terlihat sempurna di semua perangkat, mulai dari smartphone hingga layar lebar.\nApa yang akan kita pelajari?\n\nDasar-dasar Webflow: Mengenal antarmuka, komponen dasar, dan cara kerjanya.\nDesain UI/UX: Membuat tampilan yang menarik dan pengalaman pengguna yang seamless.\nResponsivitas: Memastikan desain kita terlihat sempurna di semua ukuran layar.\nAnimasi: Menambahkan efek animasi yang keren untuk membuat landing page kita lebih hidup.\nIntegrasi: Menghubungkan landing page kita dengan berbagai platform seperti CMS, email marketing, dan lainnya.\n\nMengapa Landing Page itu Penting?\nLanding page adalah pintu gerbang pertama pengunjung ke website kita. Dengan landing page yang baik, kita bisa:\n\nMeningkatkan konversi: Mengubah pengunjung menjadi pelanggan.\nMembangun brand awareness: Memperkenalkan merek kita kepada audiens yang lebih luas.\nMengukur performa: Melacak kinerja landing page kita dan melakukan perbaikan.\n\nSiap untuk memulai petualangan desain web kita? Yuk, kita sama-sama belajar, bereksperimen, dan menciptakan landing page yang luar biasa!\nTips:\n\nJangan ragu untuk bertanya: Setiap pertanyaan adalah kesempatan untuk belajar lebih banyak.\nPraktikkan secara rutin: Semakin sering kamu berlatih, semakin mahir kamu akan menjadi.\nBerbagi adalah peduli: Bagikan pengetahuanmu dengan teman-teman sesama pejuang siber.\n\nMari kita mulai!\n[Tambahkan di sini: Link ke modul pertama atau tugas pertama]\n#Webflow #LandingPage #DesainWeb #PejuangSiber\n[Tambahkan gambar atau GIF yang menarik untuk mempercantik halaman]\nP.S: Jangan lupa siapkan kopi atau teh kesukaanmu, ya!\nBagaimana menurutmu, Pejuang Siber? Apakah ada yang ingin ditambahkan atau diubah pada halaman pendahuluan ini?",
+    "crumbs": [
+      "About",
+      "Pendahuluan"
+    ]
+  },
+  {
+    "objectID": "source_code.html",
+    "href": "source_code.html",
+    "title": "source code project landing page dengan webflow",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "About",
+      "Source Code Project"
+    ]
   },
   {
     "objectID": "Hari 1/landing_page_with_webflow.html",
@@ -45,7 +83,7 @@
     "text": "Your Bussiness Terace\n\n\na landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement\n\n\n\n\n\n\n\n\ntimeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.\n\n\n\n\n\n\n\n\n\n\n\n\nModern Landing Page",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -57,7 +95,7 @@
     "text": "a landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -69,7 +107,7 @@
     "text": "timeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -81,55 +119,7 @@
     "text": "Modern Landing Page",
     "crumbs": [
       "About",
-      "Hari #1",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#django",
-    "href": "Hari 1/landing_page_with_webflow.html#django",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Django 2",
-    "text": "Django 2\n\nWeb Framework For Perfectionist with Deadline\n\nDjango is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.",
-    "crumbs": [
-      "About",
-      "Hari #1",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#why-django",
-    "href": "Hari 1/landing_page_with_webflow.html#why-django",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Why Django? 3",
-    "text": "Why Django? 3\n\nCompleteVersatileSecureScalableMaintainablePortable\n\n\nDjango follows the “Batteries included” philosophy and provides almost everything developers might want to do “out of the box”. Because everything you need is part of the one “product”, it all works seamlessly together, follows consistent design principles, and has extensive and up-to-date documentation.\n\n\nDjango can be (and has been) used to build almost any type of website — from content management systems and wikis, through to social networks and news sites. It can work with any client-side framework, and can deliver content in almost any format (including HTML, RSS feeds, JSON, and XML).\nInternally, while it provides choices for almost any functionality you might want (e.g. several popular databases, templating engines, etc.), it can also be extended to use other components if needed.\n\n\nDjango helps developers avoid many common security mistakes by providing a framework that has been engineered to “do the right things” to protect the website automatically. For example, Django provides a secure way to manage user accounts and passwords, avoiding common mistakes like putting session information in cookies where it is vulnerable (instead cookies just contain a key, and the actual data is stored in the database) or directly storing passwords rather than a password hash.\nA password hash is a fixed-length value created by sending the password through a cryptographic hash function. Django can check if an entered password is correct by running it through the hash function and comparing the output to the stored hash value. However due to the “one-way” nature of the function, even if a stored hash value is compromised it is hard for an attacker to work out the original password.\nDjango enables protection against many vulnerabilities by default, including SQL injection, cross-site scripting, cross-site request forgery and clickjacking (see Website security for more details of such attacks).\n\n\nDjango uses a component-based “shared-nothing” architecture (each part of the architecture is independent of the others, and can hence be replaced or changed if needed). Having a clear separation between the different parts means that it can scale for increased traffic by adding hardware at any level: caching servers, database servers, or application servers. Some of the busiest sites have successfully scaled Django to meet their demands (e.g. Instagram and Disqus, to name just two).\n\n\nDjango code is written using design principles and patterns that encourage the creation of maintainable and reusable code. In particular, it makes use of the Don’t Repeat Yourself (DRY) principle so there is no unnecessary duplication, reducing the amount of code. Django also promotes the grouping of related functionality into reusable “applications” and, at a lower level, groups related code into modules (along the lines of the Model View Controller (MVC) pattern).\n\n\nDjango is written in Python, which runs on many platforms. That means that you are not tied to any particular server platform, and can run your applications on many flavors of Linux, Windows, and macOS. Furthermore, Django is well-supported by many web hosting providers, who often provide specific infrastructure and documentation for hosting Django sites.",
-    "crumbs": [
-      "About",
-      "Hari #1",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#initialize-django-app",
-    "href": "Hari 1/landing_page_with_webflow.html#initialize-django-app",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Initialize Django App",
-    "text": "Initialize Django App\n\ninstallationstart projectstart appcreate simple lead generator app",
-    "crumbs": [
-      "About",
-      "Hari #1",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#run-local-django-server",
-    "href": "Hari 1/landing_page_with_webflow.html#run-local-django-server",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Run Local Django Server",
-    "text": "Run Local Django Server\n\nfinally…\n\npython manage.py runserver",
-    "crumbs": [
-      "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -141,7 +131,7 @@
     "text": "Webflow\n\nbringing development superpowers to everyone.",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -153,7 +143,7 @@
     "text": "For Designer or Developer?\n\nfor designer with minor coding background and developer with minor design background",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -165,7 +155,7 @@
     "text": "Create first Landing Page in Webflow\n\nhttps://tapak-landing-page.webflow.io/",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -177,7 +167,7 @@
     "text": "Export Webflow Code to HTML\n\nPaid - Subscribe to premium member \nFree - Download the HTML page",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -189,7 +179,7 @@
     "text": "Integrate Webflow site to be Django Template",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
@@ -198,18 +188,22 @@
     "href": "Hari 1/landing_page_with_webflow.html#footnotes",
     "title": "Membuat Responsive Landing Page dengan Webflow",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Landing_page↩︎\nhttps://www.djangoproject.com/↩︎\nhttps://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction↩︎",
+    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Landing_page↩︎",
     "crumbs": [
       "About",
-      "Hari #1",
+      "Materi Membuat Landing Page Dengan Webflow",
       "Membuat Responsive Landing Page dengan Webflow"
     ]
   },
   {
-    "objectID": "Hari 1/django_for_beginner.html",
-    "href": "Hari 1/django_for_beginner.html",
-    "title": "Django Web Framework - Web Framework for a Perfectionist with Deadline",
+    "objectID": "submission.html",
+    "href": "submission.html",
+    "title": "submission link project landing page dengan webflow",
     "section": "",
-    "text": "Back to top"
+    "text": "Back to top",
+    "crumbs": [
+      "About",
+      "Submission"
+    ]
   }
 ]
