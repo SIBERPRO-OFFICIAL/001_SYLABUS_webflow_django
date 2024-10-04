@@ -2,9 +2,10 @@ project:
   type: website
 
 website:
-  title: "siberpro"
+  title: ""
   description: "di kelas ini kamu akan belajar tentang pembuatan webflow secara mendasar, mulai dari apa itu html dan css, membuat halaman web sederhana dengan html dan css dan akan dilanjutkan dengan membuat landing page interactive dengan webflow"
   navbar:
+    logo: img/logo_cropped.png
     search: true
     right:
       - about.qmd
@@ -16,13 +17,27 @@ website:
         href: https://linkedin.com/in/siberpro
   sidebar:
     style: floating
+    background: light
+    pinned: true
+    border: true
     contents:
       - text: Daftar Isi
-      - section: "Hari #1"
+      - text: Pendahuluan
+        href: index.qmd
+      - text:
+      - section: "Materi Membuat Landing Page Dengan Webflow"
         contents:
-          - Hari 1/git_for_beginner.qmd
+          - text: "optional : git for beginner"
+            href: Hari 1/git_for_beginner.qmd
           - Hari 1/html_css_for_beginner.qmd
           - Hari 1/landing_page_with_webflow.qmd
+      - section: "Praktek Membuat Landing Page Dengan Webflow"
+        contents:
+          - Hari 2/praktek_landing_page_webflow.qmd
+      - text: "Source Code Project"
+        href: source_code.qmd
+      - text: "Submission"
+        href: submission.qmd
         
   back-to-top-navigation: true
   reader-mode: true
@@ -30,5 +45,9 @@ format:
   html:
     theme: sandstone
     css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    title-block-categories: true
 execute:
   freeze: auto

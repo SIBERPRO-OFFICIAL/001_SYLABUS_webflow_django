@@ -1,0 +1,10 @@
+---
+title: Live Session - Membuat Responsive Landing Page dengan Webflow
+description: di live session ini kita akan langsung praktek membuat rensponsive landing page dengan webflow
+date: 10/04/2024
+author: Sulthan A. Karimov
+categories: [webflow, landing page]
+draft: false
+show: true
+freeze: true
+---

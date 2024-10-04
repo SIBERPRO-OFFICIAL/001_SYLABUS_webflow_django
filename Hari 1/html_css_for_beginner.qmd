@@ -1,5 +1,5 @@
 ---
-title: HTML dan CSS dasar
+title: HTML dan CSS untuk Pemula
 description: di module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS
 date: 10/01/2024
 author: Sulthan A. Karimov
@@ -7,4 +7,10 @@ categories: [html, css, web development]
 draft: false
 show: true
 freeze: true
+include-after-body:
+  text: <script type="module" src="../js/livecodes.js"></script>
 ---
+
+::: {#livecodes}
+:::
+
