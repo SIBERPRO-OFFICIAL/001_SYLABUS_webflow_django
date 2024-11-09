@@ -1,5 +1,155 @@
 [
   {
+    "objectID": "source_code.html",
+    "href": "source_code.html",
+    "title": "source code project landing page dengan webflow",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "About",
+      "Source Code Project"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#apa-itu-css",
+    "href": "Hari 1/html_css_for_beginner.html#apa-itu-css",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Apa itu CSS?",
+    "text": "Apa itu CSS?",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#selector-dalam-css",
+    "href": "Hari 1/html_css_for_beginner.html#selector-dalam-css",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "selector dalam CSS",
+    "text": "selector dalam CSS",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#property-dalam-css",
+    "href": "Hari 1/html_css_for_beginner.html#property-dalam-css",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "property dalam CSS",
+    "text": "property dalam CSS",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#layout-dalam-css",
+    "href": "Hari 1/html_css_for_beginner.html#layout-dalam-css",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "layout dalam CSS",
+    "text": "layout dalam CSS",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#responsive-design",
+    "href": "Hari 1/html_css_for_beginner.html#responsive-design",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Responsive Design",
+    "text": "Responsive Design",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#apa-itu-javascript",
+    "href": "Hari 1/html_css_for_beginner.html#apa-itu-javascript",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Apa itu Javascript",
+    "text": "Apa itu Javascript",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#variabel-dan-tipe-data-dalam-javascript",
+    "href": "Hari 1/html_css_for_beginner.html#variabel-dan-tipe-data-dalam-javascript",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Variabel dan Tipe Data dalam Javascript",
+    "text": "Variabel dan Tipe Data dalam Javascript",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#control-flow-dalam-javascript",
+    "href": "Hari 1/html_css_for_beginner.html#control-flow-dalam-javascript",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Control Flow dalam Javascript",
+    "text": "Control Flow dalam Javascript",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#fungsi-dalam-javascript",
+    "href": "Hari 1/html_css_for_beginner.html#fungsi-dalam-javascript",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Fungsi dalam Javascript",
+    "text": "Fungsi dalam Javascript",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#manipulasi-dom-dengan-javascript",
+    "href": "Hari 1/html_css_for_beginner.html#manipulasi-dom-dengan-javascript",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Manipulasi DOM dengan Javascript",
+    "text": "Manipulasi DOM dengan Javascript",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
+    "objectID": "Hari 1/html_css_for_beginner.html#event-handling",
+    "href": "Hari 1/html_css_for_beginner.html#event-handling",
+    "title": "Membangun Web dengan HTML CSS dan Javascript",
+    "section": "Event Handling",
+    "text": "Event Handling",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Membangun Web dengan HTML CSS dan Javascript"
+    ]
+  },
+  {
     "objectID": "Hari 2/praktek_landing_page_webflow.html",
     "href": "Hari 2/praktek_landing_page_webflow.html",
     "title": "Live Session - Membuat Responsive Landing Page dengan Webflow",
@@ -12,34 +162,338 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "Hari 1/html_css_for_beginner.html",
-    "href": "Hari 1/html_css_for_beginner.html",
-    "title": "HTML dan CSS untuk Pemula",
+    "objectID": "submission.html",
+    "href": "submission.html",
+    "title": "submission link project landing page dengan webflow",
     "section": "",
     "text": "Back to top",
     "crumbs": [
       "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "HTML dan CSS untuk Pemula"
+      "Submission"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html",
+    "href": "Hari 1/landing_page_with_webflow.html",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "",
+    "text": "Your Bussiness Terace\n\n\na landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement\n\n\n\n\n\n\n\n\ntimeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.\n\n\n\n\n\n\n\n\n\n\n\n\nModern Landing Page",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#what-is-landing-page",
+    "href": "Hari 1/landing_page_with_webflow.html#what-is-landing-page",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "",
+    "text": "a landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#conventional-landing-page",
+    "href": "Hari 1/landing_page_with_webflow.html#conventional-landing-page",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "",
+    "text": "timeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#modern-landing-page",
+    "href": "Hari 1/landing_page_with_webflow.html#modern-landing-page",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "",
+    "text": "Modern Landing Page",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#webflow",
+    "href": "Hari 1/landing_page_with_webflow.html#webflow",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "Webflow",
+    "text": "Webflow\n\nbringing development superpowers to everyone.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#for-designer-or-developer",
+    "href": "Hari 1/landing_page_with_webflow.html#for-designer-or-developer",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "For Designer or Developer?",
+    "text": "For Designer or Developer?\n\nfor designer with minor coding background and developer with minor design background",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#create-first-landing-page-in-webflow",
+    "href": "Hari 1/landing_page_with_webflow.html#create-first-landing-page-in-webflow",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "Create first Landing Page in Webflow",
+    "text": "Create first Landing Page in Webflow\n\nhttps://tapak-landing-page.webflow.io/",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#export-webflow-code-to-html",
+    "href": "Hari 1/landing_page_with_webflow.html#export-webflow-code-to-html",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "Export Webflow Code to HTML",
+    "text": "Export Webflow Code to HTML\n\nPaid - Subscribe to premium member \nFree - Download the HTML page",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#integrate-webflow-site-to-be-django-template",
+    "href": "Hari 1/landing_page_with_webflow.html#integrate-webflow-site-to-be-django-template",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "Integrate Webflow site to be Django Template",
+    "text": "Integrate Webflow site to be Django Template",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
+    ]
+  },
+  {
+    "objectID": "Hari 1/landing_page_with_webflow.html#footnotes",
+    "href": "Hari 1/landing_page_with_webflow.html#footnotes",
+    "title": "Pengenalan Webflow sebagai Front-end Framework",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Landing_page↩︎",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Pengenalan Webflow sebagai Front-end Framework"
     ]
   },
   {
     "objectID": "Hari 1/git_for_beginner.html",
     "href": "Hari 1/git_for_beginner.html",
-    "title": "Version Control dengan Git",
+    "title": "Version Control System dengan Git",
     "section": "",
-    "text": "Back to top",
+    "text": "pernahkan anda membuat karya tulis ilmiah? dalam proses nya anda sering kali membuat beberapa versi dari karya tulis tersebut, versi #1 * versi #2 * versi final * versi revisi * fix * fix banget * fix bangeeeet, bila karya tulis itu hanya terdiri dari satu atau dua halaman, anda masih bisa mengingat semuanya dengan baik.\ntapi bayangkan bila karya tulis itu ternyata berkembang menjadi beberapa bab, bagaimana cara anda melacak perubahan apa saja yang anda buat pada beberapa versi? sulit bukan?\nhal ini juga terjadi pada dunia programming. code yang anda tulis akan sering berubah seiring dengan perkembangan project. di sinilah Version Control System (VCS) mengambil peran.\nVCS adalah sebuah alat perangkat lunak yang membantu merekam perubahan-perubahan dari sebuah berkas. dengan VCS anda bisa kembali ke versi manapun dari project yang sedang dikerjakan. sehingga ketika terjadi error anda dapat berpindah ke versi lain dari project anda sebelum error terjadi, seru bukan?\nbukan hanya itu, VCS juga memungkinkan tim anda untuk dapat bekerja secara paralel. dengan kemampuannya untuk merekam setiap perubahan, setiap anggota tim dapat mengerjakan project secara bersamaan tanpa perlu khawatir code yang ditulis ditimpa oleh anggota tim lain.\npada awal kemunculannya, VCS adalah software yang terpusat. artinya, VCS dijalankan dalam sebuah server dan siapapun yang ingin mengaksesnya harus terus terhubung dengan internet. hal ini tentu menjadi sulit ketika pengakses tidak memiliki koneksi internet, atau memiliki koneksi internet yang buruk. untuk menjawab tantangan itu, muncullah VCS yang terdistribusi (distributed VCS).",
     "crumbs": [
       "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "optional : git for beginner"
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#apa-itu-git",
+    "href": "Hari 1/git_for_beginner.html#apa-itu-git",
+    "title": "Version Control System dengan Git",
+    "section": "Apa itu Git?",
+    "text": "Apa itu Git?\nGit adalah VCS terdistribusi yang dapat melacak perubahan pada sebuah berkas. Git sering digunakan oleh programmer dalam proses pengembangan perangkat lunak secara kolaboratif.\nGit ditemukan oleh Linus Torvalds yang juga menciptakan Kernel Linux1. Saat ini Git merupakan VCS terpopuler yang paling banyak dipakai. bukan hanya oleh programmer, Git juga telah banyak diadopsi dalam pengerjaan berbagai macam project.\nhal ini tentu terjadi bukan tanpa sebab. di bawah ini adalah beberapa alasan kenapa Git disukai sebagai solusi VCS:\n\nCepat dan Efisien, Git sangat cepat dalam melacak perubahan, bahkan untuk project yang sangat besar sekalipun. hal ini tentu menjadi keuntungan besar dalam pengerjaan project, kita tidak perlu membuang banyak waktu hanya untuk melacak perubahan, semua terjadi dengan sangat cepat dan berjalan di latar belakang.\nFleksibel, Git bisa anda gunakan di mana saja, baik itu di komputer pribadi, server, atau layanan cloud seperti GitHub.anda tidak perlu dedicated komputer untuk mengerjakan suatu project. anda dapat memulai di device A dan melanjutkannya di device B atau device C.\nTerdistribusi, Setiap anggota tim memiliki salinan lengkap proyek, sehingga anda bisa bekerja secara mandiri tanpa harus selalu terhubung ke server pusat.\nOpen source, Git gratis dan bisa kalian gunakan secara bebas. mungkin ini adalah faktor terbesar yang mendongkrak popularitas Git. karena anda tidak perlu mengeluarkan biaya mahal untuk mulai menerapkan VCS dalam alur kerja project anda.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#kelebihan-git-dari-vcs-lain",
+    "href": "Hari 1/git_for_beginner.html#kelebihan-git-dari-vcs-lain",
+    "title": "Version Control System dengan Git",
+    "section": "Kelebihan Git dari VCS lain",
+    "text": "Kelebihan Git dari VCS lain\ngit memiliki banyak kelebihan yang dapat membuat pengerjaan berbagai macam project menjadi lebih efisien dan efektif. diantara kelebihan-kelebihan Git adalah:\n\nDesain Terdistribusi yang Kuat\n\nSetiap Pengembang Punya Salinan Lengkap: Setiap anggota tim memiliki salinan lengkap repositori proyek. Ini berarti Anda bisa bekerja secara offline, melakukan commit, dan bahkan membuat cabang baru tanpa harus selalu terhubung ke server pusat.\nKinerja yang Lebih Baik: Operasi-operasi seperti commit, branch, dan merge umumnya lebih cepat karena dilakukan secara lokal.\nKeamanan yang Lebih Tinggi: Jika server pusat mengalami masalah, Anda masih memiliki salinan proyek di komputer lokal Anda.\n\n\n\nCabang (Branch) yang Fleksibel\n\nMembuat Cabang dengan Mudah: Git memungkinkan Anda membuat cabang baru dengan sangat cepat. Ini sangat berguna untuk mencoba fitur baru tanpa mengganggu kode utama.\nMerge yang Canggih: Git memiliki algoritma merge yang sangat baik. Ini berarti Anda bisa menggabungkan perubahan dari beberapa cabang dengan mudah, bahkan jika ada konflik.\n\n\n\nKomunitas yang Besar dan Aktif\n\nDukungan yang Luas: Git memiliki komunitas pengguna yang sangat besar dan aktif. Anda akan dengan mudah menemukan tutorial, dokumentasi, dan solusi untuk masalah yang Anda hadapi.\nBanyak Alat dan Integrasi: Ada banyak alat dan layanan yang terintegrasi dengan Git, seperti GitHub, GitLab, dan Bitbucket. Ini membuat Git menjadi sangat serbaguna.\n\n\n\nKecepatan dan Efisiensi\n\nAlgoritma yang Optimal: Git menggunakan algoritma yang sangat efisien untuk menyimpan dan melacak perubahan pada file. Ini membuat Git sangat cepat, bahkan untuk proyek yang sangat besar.\nKompresi Data yang Baik: Git melakukan kompresi data dengan sangat baik, sehingga ukuran repositori Anda tetap terjaga.\n\n\n\nFleksibilitas\n\nNon-Linear Development: Git sangat mendukung pengembangan non-linear. Anda bisa memiliki banyak cabang yang aktif secara bersamaan dan menggabungkan perubahan dari berbagai cabang dengan mudah.\nCustomizable Workflow: Git sangat fleksibel, sehingga Anda bisa menyesuaikan alur kerja sesuai dengan kebutuhan tim Anda.\n\n\n\nPerbandingan dengan VCS Lain (Contoh: SVN)\n\n\n\nFitur\nGit\nSVN\n\n\n\n\nDistribusi\nTerdistribusi\nTerpusat\n\n\nCabang\nMudah dibuat dan digabungkan\nAgak rumit\n\n\nKinerja\nSangat cepat\nRelatif lambat\n\n\nKomunitas\nSangat besar\nLebih kecil\n\n\nFleksibilitas\nSangat fleksibel\nKurang fleksibel",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#repository",
+    "href": "Hari 1/git_for_beginner.html#repository",
+    "title": "Version Control System dengan Git",
+    "section": "1. Repository",
+    "text": "1. Repository\n\nPengertian: Repository adalah tempat penyimpanan semua file proyek dan riwayat perubahannya. Bayangkan seperti sebuah gudang besar tempat kita menyimpan semua versi dari proyek kita.\nJenis:\n\nLocal Repository: Repository yang disimpan di komputer lokal Anda.\nRemote Repository: Repository yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#commit",
+    "href": "Hari 1/git_for_beginner.html#commit",
+    "title": "Version Control System dengan Git",
+    "section": "2. Commit",
+    "text": "2. Commit\n\nPengertian: Commit adalah tindakan menyimpan perubahan pada file-file di repository. Setiap commit akan membuat snapshot dari proyek pada suatu titik waktu tertentu.\nFungsi:\n\nMelacak perubahan: Setiap commit akan mencatat perubahan apa saja yang telah dilakukan.\nMembuat titik pengembalian: Jika terjadi kesalahan, kita bisa kembali ke commit sebelumnya.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#branch",
+    "href": "Hari 1/git_for_beginner.html#branch",
+    "title": "Version Control System dengan Git",
+    "section": "3. Branch",
+    "text": "3. Branch\n\nPengertian: Branch adalah garis perkembangan dari sebuah proyek. Bayangkan seperti cabang pada pohon, setiap cabang mewakili satu alur pengembangan.\nFungsi:\n\nMengembangkan fitur baru secara terpisah: Kita bisa membuat cabang baru untuk mengembangkan fitur baru tanpa mengganggu kode utama.\nEksperimen: Kita bisa mencoba hal-hal baru di cabang tanpa khawatir merusak kode utama.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#merge",
+    "href": "Hari 1/git_for_beginner.html#merge",
+    "title": "Version Control System dengan Git",
+    "section": "4. Merge",
+    "text": "4. Merge\n\nPengertian: Merge adalah proses menggabungkan perubahan dari satu cabang ke cabang lainnya.\nFungsi:\n\nMenggabungkan fitur baru ke cabang utama: Setelah selesai mengembangkan fitur baru, kita bisa menggabungkan perubahannya ke cabang utama.\nMenyelesaikan konflik: Jika ada perubahan yang bertentangan antara dua cabang, Git akan menandai konflik tersebut dan kita perlu menyelesaikannya secara manual.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#contoh-sederhana-penggunaan-git",
+    "href": "Hari 1/git_for_beginner.html#contoh-sederhana-penggunaan-git",
+    "title": "Version Control System dengan Git",
+    "section": "Contoh Sederhana Penggunaan Git",
+    "text": "Contoh Sederhana Penggunaan Git\nMisalkan kita sedang membuat sebuah website. Kita mulai dengan membuat halaman beranda. Kemudian, kita ingin menambahkan halaman tentang.\n\nBuat Repository: Kita membuat repository baru untuk proyek website kita.\nBuat Commit Pertama: Kita menyimpan halaman beranda sebagai commit pertama.\nBuat Cabang Baru: Kita membuat cabang baru bernama “halaman-tentang” untuk mengembangkan halaman tentang.\nKerjakan Halaman Tentang: Kita membuat perubahan pada file untuk halaman tentang di cabang “halaman-tentang”.\nCommit Perubahan: Kita menyimpan perubahan pada cabang “halaman-tentang”.\nGabungkan Cabang: Setelah selesai, kita menggabungkan perubahan dari cabang “halaman-tentang” ke cabang utama.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#visualisasi-git",
+    "href": "Hari 1/git_for_beginner.html#visualisasi-git",
+    "title": "Version Control System dengan Git",
+    "section": "Visualisasi Git",
+    "text": "Visualisasi Git\nUntuk lebih memahami konsep-konsep ini, mari kita lihat visualisasi sederhana berikut:\n\nPenjelasan Gambar:\n\nMain branch: Cabang utama dari proyek.\nFeature branch: Cabang yang dibuat untuk mengembangkan fitur baru.\nCommit: Setiap titik pada garis mewakili sebuah commit.\nMerge: Garis yang menghubungkan dua cabang menunjukkan proses merge.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#instalasi-git",
+    "href": "Hari 1/git_for_beginner.html#instalasi-git",
+    "title": "Version Control System dengan Git",
+    "section": "1. Instalasi Git",
+    "text": "1. Instalasi Git\n\nWindows:2\n\nUnduh installer Git dari situs resmi (https://git-scm.com/).\nJalankan installer dan ikuti petunjuk di layar.\n\nmacOS:\n\nCara termudah adalah dengan menginstal Xcode Command Line Tools. Buka Terminal dan ketik xcode-select --install.\n\nLinux:\n\nGunakan package manager distribusi Linux Anda. Contoh: sudo apt install git (untuk Ubuntu/Debian).\n\n\n\n2. Konfigurasi Awal\nSetelah Git terinstal, atur nama pengguna dan email Anda yang akan tercatat dalam setiap commit:\ngit config --global user.name \"Nama Anda\"\ngit config --global user.email \"alamat_email@contoh.com\"\nPerintah --global membuat konfigurasi berlaku untuk semua repositori Git di komputer Anda.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#perintah-dasar-git",
+    "href": "Hari 1/git_for_beginner.html#perintah-dasar-git",
+    "title": "Version Control System dengan Git",
+    "section": "3. Perintah Dasar Git",
+    "text": "3. Perintah Dasar Git\n\ngit init: Membuat repository Git baru di direktori saat ini.\ngit clone &lt;url&gt;: Mengunduh repository dari remote ke komputer lokal.\ngit add &lt;file&gt;: Menambahkan perubahan pada file ke staging area.\ngit commit -m \"Pesan commit\": Menyimpan perubahan yang telah ditambahkan ke staging area ke repository.\ngit status: Menampilkan status repository saat ini (perubahan yang belum di-commit, cabang aktif, dll.).\ngit log: Menampilkan riwayat commit.\ngit branch: Menampilkan daftar cabang.\ngit branch &lt;nama_cabang&gt;: Membuat cabang baru.\ngit checkout &lt;nama_cabang&gt;: Beralih ke cabang yang berbeda.\ngit merge &lt;nama_cabang&gt;: Menggabungkan perubahan dari satu cabang ke cabang lain.\ngit push &lt;remote&gt; &lt;branch&gt;: Mendorong perubahan ke remote repository.\ngit pull &lt;remote&gt; &lt;branch&gt;: Mengambil perubahan dari remote repository.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#contoh-penggunaan",
+    "href": "Hari 1/git_for_beginner.html#contoh-penggunaan",
+    "title": "Version Control System dengan Git",
+    "section": "Contoh Penggunaan",
+    "text": "Contoh Penggunaan\n\nMembuat Proyek Baru:\nmkdir proyek_baru\ncd proyek_baru\ngit init\nMenambahkan File dan Commit:\ntouch README.md\necho \"Proyek baru saya\" &gt; README.md\ngit add README.md\ngit commit -m \"Membuat file README\"\nMembuat Cabang Baru:\ngit branch fitur_baru\nBeralih ke Cabang Baru dan Membuat Perubahan:\ngit checkout fitur_baru\n# Buat perubahan pada file\ngit add .\ngit commit -m \"Menambahkan fitur baru\"\nMenggabungkan Cabang:\ngit checkout main\ngit merge fitur_baru\nGit Remote dan Kolaborasi\nApa itu Remote Repository?\nRemote repository adalah repository Git yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket. Berbeda dengan local repository yang disimpan di komputer lokal Anda, remote repository berfungsi sebagai pusat penyimpanan kode yang bisa diakses oleh banyak orang.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#mengapa-kita-membutuhkan-remote-repository",
+    "href": "Hari 1/git_for_beginner.html#mengapa-kita-membutuhkan-remote-repository",
+    "title": "Version Control System dengan Git",
+    "section": "Mengapa Kita Membutuhkan Remote Repository?",
+    "text": "Mengapa Kita Membutuhkan Remote Repository?\n\nKolaborasi: Beberapa orang bisa bekerja bersama dalam satu proyek.\nBackup: Kode Anda tersimpan di tempat yang aman dan dapat diakses dari mana saja.\nVersion Control: Anda bisa melihat sejarah perubahan kode secara lebih detail.\nOpen Source: Anda bisa berkontribusi pada proyek open source.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#cara-menggunakan-remote-repository",
+    "href": "Hari 1/git_for_beginner.html#cara-menggunakan-remote-repository",
+    "title": "Version Control System dengan Git",
+    "section": "Cara Menggunakan Remote Repository",
+    "text": "Cara Menggunakan Remote Repository\n\nMembuat Akun:\n\nPilih platform hosting Git seperti GitHub, GitLab, atau Bitbucket.\nBuat akun dan verifikasi email Anda.\n\nMembuat Remote Repository:\n\nDi platform yang Anda pilih, buat repository baru.\nAnda akan diberikan URL unik untuk repository tersebut.\n\nMenambahkan Remote:\n\nBuka terminal Anda dan masuk ke direktori proyek lokal Anda.\nGunakan perintah berikut untuk menambahkan remote:\ngit remote add origin &lt;url_remote_repository&gt;\nGanti &lt;url_remote_repository&gt; dengan URL yang diberikan oleh platform hosting Anda.\n\nMendorong Perubahan (Push):\n\nSetelah membuat perubahan dan melakukan commit di local repository, gunakan perintah berikut untuk mendorong perubahan ke remote repository:\ngit push -u origin main\nPerintah ini akan membuat cabang main di remote repository jika belum ada.\n\nMengambil Perubahan (Pull):\n\nUntuk mengambil perubahan terbaru dari remote repository, gunakan perintah:\ngit pull origin main",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#kolaborasi-dengan-git",
+    "href": "Hari 1/git_for_beginner.html#kolaborasi-dengan-git",
+    "title": "Version Control System dengan Git",
+    "section": "Kolaborasi dengan Git",
+    "text": "Kolaborasi dengan Git\nKolaborasi dengan Git sangat mudah. Berikut adalah beberapa cara umum:\n\nForking: Membuat salinan dari repository orang lain ke akun Anda. Ini memungkinkan Anda membuat perubahan tanpa memengaruhi repository asli.\nPull Request: Mengusulkan perubahan pada repository orang lain. Pemilik repository dapat meninjau dan menggabungkan perubahan Anda.\nIssue Tracking: Melaporkan bug atau meminta fitur baru.\nCode Review: Meninjau kode yang dibuat oleh anggota tim lainnya.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#membuat-akun-github",
+    "href": "Hari 1/git_for_beginner.html#membuat-akun-github",
+    "title": "Version Control System dengan Git",
+    "section": "Membuat Akun GitHub",
+    "text": "Membuat Akun GitHub\nGitHub adalah platform hosting Git yang paling populer. Untuk membuat akun GitHub:\n\nBuka situs web GitHub (https://github.com/).\nKlik tombol “Sign up”.\nIsi formulir pendaftaran dengan informasi yang diminta.\nVerifikasi email Anda.\n\nTips Tambahan:\n\nGunakan Cabang: Buat cabang baru untuk setiap fitur atau perbaikan bug. Ini akan memudahkan Anda untuk mengelola perubahan dan menghindari konflik.\nTulis Commit Message yang Baik: Commit message yang jelas dan ringkas akan membantu Anda dan tim Anda memahami perubahan yang telah dilakukan.\nManfaatkan Fitur GitHub: GitHub menyediakan banyak fitur seperti issue tracking, code review, dan wiki yang dapat membantu Anda dalam kolaborasi.\n\nContoh Sederhana:\n\nAnda membuat proyek baru secara lokal.\nAnda membuat akun GitHub dan membuat repository baru.\nAnda menambahkan remote repository ke proyek lokal Anda.\nAnda membuat perubahan pada kode dan melakukan commit.\nAnda mendorong perubahan ke remote repository.\nTeman Anda meng-clone repository Anda dan membuat cabang baru untuk menambahkan fitur baru.\nTeman Anda membuat pull request untuk menggabungkan fitur barunya ke cabang utama.\nAnda meninjau perubahan dan menggabungkan pull request.",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
+    ]
+  },
+  {
+    "objectID": "Hari 1/git_for_beginner.html#footnotes",
+    "href": "Hari 1/git_for_beginner.html#footnotes",
+    "title": "Version Control System dengan Git",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://github.com/torvalds/linux↩︎\nuntuk membuka terminal git di windows anda dapat menggunakan Git BASH↩︎",
+    "crumbs": [
+      "About",
+      "Membuat Landing Page Dengan Webflow",
+      "Version Control System dengan Git"
     ]
   },
   {
@@ -47,7 +501,7 @@
     "href": "index.html",
     "title": "membuat responsive landing page dengan webflow",
     "section": "",
-    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di modul ini, kita akan belajar bersama-sama bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nKenapa Webflow? Karena platform ini memberikan kita kebebasan untuk mendesain tanpa perlu coding yang rumit. Kita bisa langsung melihat hasil desain kita secara real-time, dan yang paling penting, landing page yang kita buat akan terlihat sempurna di semua perangkat, mulai dari smartphone hingga layar lebar.\nApa yang akan kita pelajari?\n\nDasar-dasar Webflow: Mengenal antarmuka, komponen dasar, dan cara kerjanya.\nDesain UI/UX: Membuat tampilan yang menarik dan pengalaman pengguna yang seamless.\nResponsivitas: Memastikan desain kita terlihat sempurna di semua ukuran layar.\nAnimasi: Menambahkan efek animasi yang keren untuk membuat landing page kita lebih hidup.\nIntegrasi: Menghubungkan landing page kita dengan berbagai platform seperti CMS, email marketing, dan lainnya.\n\nMengapa Landing Page itu Penting?\nLanding page adalah pintu gerbang pertama pengunjung ke website kita. Dengan landing page yang baik, kita bisa:\n\nMeningkatkan konversi: Mengubah pengunjung menjadi pelanggan.\nMembangun brand awareness: Memperkenalkan merek kita kepada audiens yang lebih luas.\nMengukur performa: Melacak kinerja landing page kita dan melakukan perbaikan.\n\nSiap untuk memulai petualangan desain web kita? Yuk, kita sama-sama belajar, bereksperimen, dan menciptakan landing page yang luar biasa!\nTips:\n\nJangan ragu untuk bertanya: Setiap pertanyaan adalah kesempatan untuk belajar lebih banyak.\nPraktikkan secara rutin: Semakin sering kamu berlatih, semakin mahir kamu akan menjadi.\nBerbagi adalah peduli: Bagikan pengetahuanmu dengan teman-teman sesama pejuang siber.\n\nMari kita mulai!\n[Tambahkan di sini: Link ke modul pertama atau tugas pertama]\n#Webflow #LandingPage #DesainWeb #PejuangSiber\n[Tambahkan gambar atau GIF yang menarik untuk mempercantik halaman]\nP.S: Jangan lupa siapkan kopi atau teh kesukaanmu, ya!\nBagaimana menurutmu, Pejuang Siber? Apakah ada yang ingin ditambahkan atau diubah pada halaman pendahuluan ini?",
+    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di kelas ini, anda akan belajar bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nDalam dunia digital yang semakin kompetitif ini, landing page menjadi salah satu alat pemasaran yang sangat efektif. Landing page adalah halaman web khusus yang dirancang untuk mencapai tujuan tertentu, seperti mengkonversi pengunjung menjadi pelanggan, mengumpulkan leads, atau mempromosikan produk atau layanan.\nLalu, Kenapa Webflow? Karena platform ini memberikan kebebasan untuk mendesain tanpa perlu coding yang rumit. Anda bisa langsung melihat hasil desain yang anda buat secara real-time, dan yang paling penting, landing page yang anda buat akan terlihat sempurna dan responsive di semua perangkat, mulai dari smartphone hingga layar lebar. seru bukan?\nSelain itu, anda juga akan belajar beberapa hal dasar yang akan membantu dalam mengawali perjalanan anda dalam mengarungi dunia siber yang perkembangannya semakin pesat ini. berikut adalah beberapa modul yang akan anda pelajari di kelas ini:\n\nVersion Control System dengan Git\ndalam modul ini anda akan bejalar beberapa hal dasar menggunakan Version Control System (VCS). yang akan kita pelajari adalah Git yang merupakan VCS paling populer di antara pra programmer. anda belajar Cara menginstall, membuat repository, menyimpan history perubahan repository, dan push perubahan ke remote repo.\nMembangun Web dengan HTML CSS dan Javascript\nmodul ini memberikan beberapa hal dasar dalam pembuatan antarmuka (front-end) web, dan HTML CSS dan Javascript adalah tiga kesatuan yang paling sering dipakai dalam dunia web development. dalam modul ini anda akan belajar Struktur dasar HTML, selector CSS, dan properti CSS, serta beberapa penerapan javascript sederhana yang dapat membuat antarmuka web kita menjadi lebih interaktif dan fungsional.\nPengenalan Webflow sebagai Front-end Framework\nmodul selanjutnya adalah modul utama kita, apabila anda sudah merasa percaya diri dengan materi dari dua modul di atas anda dapat langsung membuka modul ini. dalam modul ini anda akan dibawa untuk Mengenal antarmuka webflow, komponen dasar, dan cara kerja webflow.\n\neits, jangan kemana-mana dulu, di kelas ini juga akan diadakan satu sesi Praktek Membuat Landing Page dengan Webflow1. jadi kencangkan sabuk pengaman anda, seduh kopi dan jangan lupa memulai dengan doa. let’s begin…",
     "crumbs": [
       "About",
       "Pendahuluan"
@@ -58,152 +512,21 @@
     "href": "index.html#selamat-datang-pejuang-siber",
     "title": "membuat responsive landing page dengan webflow",
     "section": "",
-    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di modul ini, kita akan belajar bersama-sama bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nKenapa Webflow? Karena platform ini memberikan kita kebebasan untuk mendesain tanpa perlu coding yang rumit. Kita bisa langsung melihat hasil desain kita secara real-time, dan yang paling penting, landing page yang kita buat akan terlihat sempurna di semua perangkat, mulai dari smartphone hingga layar lebar.\nApa yang akan kita pelajari?\n\nDasar-dasar Webflow: Mengenal antarmuka, komponen dasar, dan cara kerjanya.\nDesain UI/UX: Membuat tampilan yang menarik dan pengalaman pengguna yang seamless.\nResponsivitas: Memastikan desain kita terlihat sempurna di semua ukuran layar.\nAnimasi: Menambahkan efek animasi yang keren untuk membuat landing page kita lebih hidup.\nIntegrasi: Menghubungkan landing page kita dengan berbagai platform seperti CMS, email marketing, dan lainnya.\n\nMengapa Landing Page itu Penting?\nLanding page adalah pintu gerbang pertama pengunjung ke website kita. Dengan landing page yang baik, kita bisa:\n\nMeningkatkan konversi: Mengubah pengunjung menjadi pelanggan.\nMembangun brand awareness: Memperkenalkan merek kita kepada audiens yang lebih luas.\nMengukur performa: Melacak kinerja landing page kita dan melakukan perbaikan.\n\nSiap untuk memulai petualangan desain web kita? Yuk, kita sama-sama belajar, bereksperimen, dan menciptakan landing page yang luar biasa!\nTips:\n\nJangan ragu untuk bertanya: Setiap pertanyaan adalah kesempatan untuk belajar lebih banyak.\nPraktikkan secara rutin: Semakin sering kamu berlatih, semakin mahir kamu akan menjadi.\nBerbagi adalah peduli: Bagikan pengetahuanmu dengan teman-teman sesama pejuang siber.\n\nMari kita mulai!\n[Tambahkan di sini: Link ke modul pertama atau tugas pertama]\n#Webflow #LandingPage #DesainWeb #PejuangSiber\n[Tambahkan gambar atau GIF yang menarik untuk mempercantik halaman]\nP.S: Jangan lupa siapkan kopi atau teh kesukaanmu, ya!\nBagaimana menurutmu, Pejuang Siber? Apakah ada yang ingin ditambahkan atau diubah pada halaman pendahuluan ini?",
+    "text": "Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di kelas ini, anda akan belajar bagaimana membangun landing page yang responsif dan memukau menggunakan Webflow.\nDalam dunia digital yang semakin kompetitif ini, landing page menjadi salah satu alat pemasaran yang sangat efektif. Landing page adalah halaman web khusus yang dirancang untuk mencapai tujuan tertentu, seperti mengkonversi pengunjung menjadi pelanggan, mengumpulkan leads, atau mempromosikan produk atau layanan.\nLalu, Kenapa Webflow? Karena platform ini memberikan kebebasan untuk mendesain tanpa perlu coding yang rumit. Anda bisa langsung melihat hasil desain yang anda buat secara real-time, dan yang paling penting, landing page yang anda buat akan terlihat sempurna dan responsive di semua perangkat, mulai dari smartphone hingga layar lebar. seru bukan?\nSelain itu, anda juga akan belajar beberapa hal dasar yang akan membantu dalam mengawali perjalanan anda dalam mengarungi dunia siber yang perkembangannya semakin pesat ini. berikut adalah beberapa modul yang akan anda pelajari di kelas ini:\n\nVersion Control System dengan Git\ndalam modul ini anda akan bejalar beberapa hal dasar menggunakan Version Control System (VCS). yang akan kita pelajari adalah Git yang merupakan VCS paling populer di antara pra programmer. anda belajar Cara menginstall, membuat repository, menyimpan history perubahan repository, dan push perubahan ke remote repo.\nMembangun Web dengan HTML CSS dan Javascript\nmodul ini memberikan beberapa hal dasar dalam pembuatan antarmuka (front-end) web, dan HTML CSS dan Javascript adalah tiga kesatuan yang paling sering dipakai dalam dunia web development. dalam modul ini anda akan belajar Struktur dasar HTML, selector CSS, dan properti CSS, serta beberapa penerapan javascript sederhana yang dapat membuat antarmuka web kita menjadi lebih interaktif dan fungsional.\nPengenalan Webflow sebagai Front-end Framework\nmodul selanjutnya adalah modul utama kita, apabila anda sudah merasa percaya diri dengan materi dari dua modul di atas anda dapat langsung membuka modul ini. dalam modul ini anda akan dibawa untuk Mengenal antarmuka webflow, komponen dasar, dan cara kerja webflow.\n\neits, jangan kemana-mana dulu, di kelas ini juga akan diadakan satu sesi Praktek Membuat Landing Page dengan Webflow1. jadi kencangkan sabuk pengaman anda, seduh kopi dan jangan lupa memulai dengan doa. let’s begin…",
     "crumbs": [
       "About",
       "Pendahuluan"
     ]
   },
   {
-    "objectID": "source_code.html",
-    "href": "source_code.html",
-    "title": "source code project landing page dengan webflow",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "About",
-      "Source Code Project"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html",
-    "href": "Hari 1/landing_page_with_webflow.html",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "",
-    "text": "Your Bussiness Terace\n\n\na landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement\n\n\n\n\n\n\n\n\ntimeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.\n\n\n\n\n\n\n\n\n\n\n\n\nModern Landing Page",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#what-is-landing-page",
-    "href": "Hari 1/landing_page_with_webflow.html#what-is-landing-page",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "",
-    "text": "a landing page, sometimes known as a lead capture page, single property page, static page, squeeze page or a destination page, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#conventional-landing-page",
-    "href": "Hari 1/landing_page_with_webflow.html#conventional-landing-page",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "",
-    "text": "timeline\n  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.\n  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.\n       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.\n       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#modern-landing-page",
-    "href": "Hari 1/landing_page_with_webflow.html#modern-landing-page",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "",
-    "text": "Modern Landing Page",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#webflow",
-    "href": "Hari 1/landing_page_with_webflow.html#webflow",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Webflow",
-    "text": "Webflow\n\nbringing development superpowers to everyone.",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#for-designer-or-developer",
-    "href": "Hari 1/landing_page_with_webflow.html#for-designer-or-developer",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "For Designer or Developer?",
-    "text": "For Designer or Developer?\n\nfor designer with minor coding background and developer with minor design background",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#create-first-landing-page-in-webflow",
-    "href": "Hari 1/landing_page_with_webflow.html#create-first-landing-page-in-webflow",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Create first Landing Page in Webflow",
-    "text": "Create first Landing Page in Webflow\n\nhttps://tapak-landing-page.webflow.io/",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#export-webflow-code-to-html",
-    "href": "Hari 1/landing_page_with_webflow.html#export-webflow-code-to-html",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Export Webflow Code to HTML",
-    "text": "Export Webflow Code to HTML\n\nPaid - Subscribe to premium member \nFree - Download the HTML page",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#integrate-webflow-site-to-be-django-template",
-    "href": "Hari 1/landing_page_with_webflow.html#integrate-webflow-site-to-be-django-template",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
-    "section": "Integrate Webflow site to be Django Template",
-    "text": "Integrate Webflow site to be Django Template",
-    "crumbs": [
-      "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "Hari 1/landing_page_with_webflow.html#footnotes",
-    "href": "Hari 1/landing_page_with_webflow.html#footnotes",
-    "title": "Membuat Responsive Landing Page dengan Webflow",
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "membuat responsive landing page dengan webflow",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://en.wikipedia.org/wiki/Landing_page↩︎",
+    "text": "Footnotes\n\n\ninfo tentang kelas akan diumumkan pada halaman Live Class dari kelas ini↩︎",
     "crumbs": [
       "About",
-      "Materi Membuat Landing Page Dengan Webflow",
-      "Membuat Responsive Landing Page dengan Webflow"
-    ]
-  },
-  {
-    "objectID": "submission.html",
-    "href": "submission.html",
-    "title": "submission link project landing page dengan webflow",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "About",
-      "Submission"
+      "Pendahuluan"
     ]
   }
 ]

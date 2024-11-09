@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sulthan A. Karimov">
-<meta name="dcterms.date" content="2024-10-01">
 <meta name="description" content="di module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS">
 
-<title>HTML dan CSS untuk Pemula</title>
+<title>Membangun Web dengan HTML CSS dan Javascript</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,11 +93,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SIBERPRO-OFFICIAL"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/siberpro"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -125,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Materi Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/html_css_for_beginner.html">HTML dan CSS untuk Pemula</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -149,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Materi Membuat Landing Page Dengan Webflow</span></a>
+ <span class="menu-text">Membuat Landing Page Dengan Webflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -158,19 +151,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/git_for_beginner.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">optional : git for beginner</span></a>
+ <span class="menu-text">Version Control System dengan Git</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/html_css_for_beginner.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">HTML dan CSS untuk Pemula</span></a>
+ <span class="menu-text">Membangun Web dengan HTML CSS dan Javascript</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/landing_page_with_webflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Membuat Responsive Landing Page dengan Webflow</span></a>
+ <span class="menu-text">Pengenalan Webflow sebagai Front-end Framework</span></a>
   </div>
 </li>
       </ul>
@@ -209,20 +202,45 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mengenal-dunia-web-dan-html" id="toc-mengenal-dunia-web-dan-html" class="nav-link active" data-scroll-target="#mengenal-dunia-web-dan-html">Mengenal Dunia Web dan HTML</a>
+  <ul>
+  <li><a href="#web---dunia-lain-yang-melingkupi-dunia-kita" id="toc-web---dunia-lain-yang-melingkupi-dunia-kita" class="nav-link" data-scroll-target="#web---dunia-lain-yang-melingkupi-dunia-kita">Web - Dunia <strong><em>Lain</em></strong> yang Melingkupi Dunia Kita</a></li>
+  <li><a href="#struktur-dasar-html" id="toc-struktur-dasar-html" class="nav-link" data-scroll-target="#struktur-dasar-html">Struktur Dasar HTML</a></li>
+  <li><a href="#semantik-html" id="toc-semantik-html" class="nav-link" data-scroll-target="#semantik-html">Semantik HTML</a></li>
+  <li><a href="#formulir-html" id="toc-formulir-html" class="nav-link" data-scroll-target="#formulir-html">Formulir HTML</a></li>
+  </ul></li>
+  <li><a href="#tampil-makin-stylish-dengan-css" id="toc-tampil-makin-stylish-dengan-css" class="nav-link" data-scroll-target="#tampil-makin-stylish-dengan-css">Tampil Makin Stylish dengan CSS</a>
+  <ul>
+  <li><a href="#apa-itu-css" id="toc-apa-itu-css" class="nav-link" data-scroll-target="#apa-itu-css">Apa itu CSS?</a></li>
+  <li><a href="#selector-dalam-css" id="toc-selector-dalam-css" class="nav-link" data-scroll-target="#selector-dalam-css"><strong>selector</strong> dalam CSS</a></li>
+  <li><a href="#property-dalam-css" id="toc-property-dalam-css" class="nav-link" data-scroll-target="#property-dalam-css"><strong>property</strong> dalam CSS</a></li>
+  <li><a href="#layout-dalam-css" id="toc-layout-dalam-css" class="nav-link" data-scroll-target="#layout-dalam-css"><strong>layout</strong> dalam CSS</a></li>
+  <li><a href="#responsive-design" id="toc-responsive-design" class="nav-link" data-scroll-target="#responsive-design">Responsive Design</a></li>
+  </ul></li>
+  <li><a href="#power-up-html-dengan-javascript" id="toc-power-up-html-dengan-javascript" class="nav-link" data-scroll-target="#power-up-html-dengan-javascript">Power-up HTML dengan Javascript</a>
+  <ul>
+  <li><a href="#apa-itu-javascript" id="toc-apa-itu-javascript" class="nav-link" data-scroll-target="#apa-itu-javascript">Apa itu Javascript</a></li>
+  <li><a href="#variabel-dan-tipe-data-dalam-javascript" id="toc-variabel-dan-tipe-data-dalam-javascript" class="nav-link" data-scroll-target="#variabel-dan-tipe-data-dalam-javascript">Variabel dan Tipe Data dalam Javascript</a></li>
+  <li><a href="#control-flow-dalam-javascript" id="toc-control-flow-dalam-javascript" class="nav-link" data-scroll-target="#control-flow-dalam-javascript">Control Flow dalam Javascript</a></li>
+  <li><a href="#fungsi-dalam-javascript" id="toc-fungsi-dalam-javascript" class="nav-link" data-scroll-target="#fungsi-dalam-javascript">Fungsi dalam Javascript</a></li>
+  <li><a href="#manipulasi-dom-dengan-javascript" id="toc-manipulasi-dom-dengan-javascript" class="nav-link" data-scroll-target="#manipulasi-dom-dengan-javascript">Manipulasi DOM dengan Javascript</a></li>
+  <li><a href="#event-handling" id="toc-event-handling" class="nav-link" data-scroll-target="#event-handling">Event Handling</a></li>
+  </ul></li>
+  <li><a href="#latihan-membuat-website-interaktif-dengan-javascript" id="toc-latihan-membuat-website-interaktif-dengan-javascript" class="nav-link" data-scroll-target="#latihan-membuat-website-interaktif-dengan-javascript">Latihan Membuat Website Interaktif dengan Javascript</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Materi Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/html_css_for_beginner.html">HTML dan CSS untuk Pemula</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">HTML dan CSS untuk Pemula</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">html</div>
-    <div class="quarto-category">css</div>
-    <div class="quarto-category">web development</div>
-  </div>
+<h1 class="title">Membangun Web dengan HTML CSS dan Javascript</h1>
   </div>
 
 <div>
@@ -234,19 +252,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sulthan A. Karimov </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -256,11 +262,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="mengenal-dunia-web-dan-html" class="level1">
+<h1>Mengenal Dunia Web dan HTML</h1>
+<section id="web---dunia-lain-yang-melingkupi-dunia-kita" class="level2">
+<h2 class="anchored" data-anchor-id="web---dunia-lain-yang-melingkupi-dunia-kita">Web - Dunia <strong><em>Lain</em></strong> yang Melingkupi Dunia Kita</h2>
+</section>
+<section id="struktur-dasar-html" class="level2">
+<h2 class="anchored" data-anchor-id="struktur-dasar-html">Struktur Dasar HTML</h2>
+</section>
+<section id="semantik-html" class="level2">
+<h2 class="anchored" data-anchor-id="semantik-html">Semantik HTML</h2>
+</section>
+<section id="formulir-html" class="level2">
+<h2 class="anchored" data-anchor-id="formulir-html">Formulir HTML</h2>
+</section>
+</section>
+<section id="tampil-makin-stylish-dengan-css" class="level1">
+<h1>Tampil Makin Stylish dengan CSS</h1>
+<section id="apa-itu-css" class="level2">
+<h2 class="anchored" data-anchor-id="apa-itu-css">Apa itu CSS?</h2>
+</section>
+<section id="selector-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="selector-dalam-css"><strong>selector</strong> dalam CSS</h2>
+</section>
+<section id="property-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="property-dalam-css"><strong>property</strong> dalam CSS</h2>
+</section>
+<section id="layout-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="layout-dalam-css"><strong>layout</strong> dalam CSS</h2>
+</section>
+<section id="responsive-design" class="level2">
+<h2 class="anchored" data-anchor-id="responsive-design">Responsive Design</h2>
+</section>
+</section>
+<section id="power-up-html-dengan-javascript" class="level1">
+<h1>Power-up HTML dengan Javascript</h1>
+<section id="apa-itu-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="apa-itu-javascript">Apa itu Javascript</h2>
+</section>
+<section id="variabel-dan-tipe-data-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="variabel-dan-tipe-data-dalam-javascript">Variabel dan Tipe Data dalam Javascript</h2>
+</section>
+<section id="control-flow-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="control-flow-dalam-javascript">Control Flow dalam Javascript</h2>
+</section>
+<section id="fungsi-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="fungsi-dalam-javascript">Fungsi dalam Javascript</h2>
+</section>
+<section id="manipulasi-dom-dengan-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="manipulasi-dom-dengan-javascript">Manipulasi DOM dengan Javascript</h2>
+</section>
+<section id="event-handling" class="level2">
+<h2 class="anchored" data-anchor-id="event-handling">Event Handling</h2>
+</section>
+</section>
+<section id="latihan-membuat-website-interaktif-dengan-javascript" class="level1">
+<h1>Latihan Membuat Website Interaktif dengan Javascript</h1>
 <div id="livecodes">
 
 </div>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

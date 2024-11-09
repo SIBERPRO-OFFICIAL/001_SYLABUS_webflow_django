@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sulthan A. Karimov">
-<meta name="dcterms.date" content="2024-10-01">
-<meta name="description" content="di module ini kamu akan belajar tentang version control menggunakan git">
 
-<title>Version Control dengan Git</title>
+<title>Version Control System dengan Git</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -95,11 +126,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SIBERPRO-OFFICIAL"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/siberpro"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
@@ -125,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Materi Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">optional : git for beginner</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Version Control System dengan Git</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -149,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Materi Membuat Landing Page Dengan Webflow</span></a>
+ <span class="menu-text">Membuat Landing Page Dengan Webflow</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -158,19 +184,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/git_for_beginner.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">optional : git for beginner</span></a>
+ <span class="menu-text">Version Control System dengan Git</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/html_css_for_beginner.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">HTML dan CSS untuk Pemula</span></a>
+ <span class="menu-text">Membangun Web dengan HTML CSS dan Javascript</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Hari 1/landing_page_with_webflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Membuat Responsive Landing Page dengan Webflow</span></a>
+ <span class="menu-text">Pengenalan Webflow sebagai Front-end Framework</span></a>
   </div>
 </li>
       </ul>
@@ -209,44 +235,60 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#apa-itu-git" id="toc-apa-itu-git" class="nav-link active" data-scroll-target="#apa-itu-git">Apa itu Git?</a></li>
+  <li><a href="#kelebihan-git-dari-vcs-lain" id="toc-kelebihan-git-dari-vcs-lain" class="nav-link" data-scroll-target="#kelebihan-git-dari-vcs-lain">Kelebihan Git dari VCS lain</a>
+  <ul>
+  <li><a href="#desain-terdistribusi-yang-kuat" id="toc-desain-terdistribusi-yang-kuat" class="nav-link" data-scroll-target="#desain-terdistribusi-yang-kuat"><strong>Desain Terdistribusi yang Kuat</strong></a></li>
+  <li><a href="#cabang-branch-yang-fleksibel" id="toc-cabang-branch-yang-fleksibel" class="nav-link" data-scroll-target="#cabang-branch-yang-fleksibel"><strong>Cabang (Branch) yang Fleksibel</strong></a></li>
+  <li><a href="#komunitas-yang-besar-dan-aktif" id="toc-komunitas-yang-besar-dan-aktif" class="nav-link" data-scroll-target="#komunitas-yang-besar-dan-aktif"><strong>Komunitas yang Besar dan Aktif</strong></a></li>
+  <li><a href="#kecepatan-dan-efisiensi" id="toc-kecepatan-dan-efisiensi" class="nav-link" data-scroll-target="#kecepatan-dan-efisiensi"><strong>Kecepatan dan Efisiensi</strong></a></li>
+  <li><a href="#fleksibilitas" id="toc-fleksibilitas" class="nav-link" data-scroll-target="#fleksibilitas"><strong>Fleksibilitas</strong></a></li>
+  <li><a href="#perbandingan-dengan-vcs-lain-contoh-svn" id="toc-perbandingan-dengan-vcs-lain-contoh-svn" class="nav-link" data-scroll-target="#perbandingan-dengan-vcs-lain-contoh-svn">Perbandingan dengan VCS Lain (Contoh: SVN)</a></li>
+  </ul></li>
+  <li><a href="#konsep-dasar-git" id="toc-konsep-dasar-git" class="nav-link" data-scroll-target="#konsep-dasar-git">Konsep Dasar Git</a>
+  <ul>
+  <li><a href="#repository" id="toc-repository" class="nav-link" data-scroll-target="#repository">1. Repository</a></li>
+  <li><a href="#commit" id="toc-commit" class="nav-link" data-scroll-target="#commit">2. Commit</a></li>
+  <li><a href="#branch" id="toc-branch" class="nav-link" data-scroll-target="#branch">3. Branch</a></li>
+  <li><a href="#merge" id="toc-merge" class="nav-link" data-scroll-target="#merge">4. Merge</a></li>
+  <li><a href="#contoh-sederhana-penggunaan-git" id="toc-contoh-sederhana-penggunaan-git" class="nav-link" data-scroll-target="#contoh-sederhana-penggunaan-git">Contoh Sederhana Penggunaan Git</a></li>
+  <li><a href="#visualisasi-git" id="toc-visualisasi-git" class="nav-link" data-scroll-target="#visualisasi-git">Visualisasi Git</a></li>
+  </ul></li>
+  <li><a href="#menggunakan-git-di-terminal" id="toc-menggunakan-git-di-terminal" class="nav-link" data-scroll-target="#menggunakan-git-di-terminal">Menggunakan Git di Terminal</a>
+  <ul>
+  <li><a href="#instalasi-git" id="toc-instalasi-git" class="nav-link" data-scroll-target="#instalasi-git">1. <strong>Instalasi Git</strong></a>
+  <ul class="collapse">
+  <li><a href="#konfigurasi-awal" id="toc-konfigurasi-awal" class="nav-link" data-scroll-target="#konfigurasi-awal">2. <strong>Konfigurasi Awal</strong></a></li>
+  </ul></li>
+  <li><a href="#perintah-dasar-git" id="toc-perintah-dasar-git" class="nav-link" data-scroll-target="#perintah-dasar-git">3. <strong>Perintah Dasar Git</strong></a></li>
+  <li><a href="#contoh-penggunaan" id="toc-contoh-penggunaan" class="nav-link" data-scroll-target="#contoh-penggunaan">Contoh Penggunaan</a></li>
+  <li><a href="#mengapa-kita-membutuhkan-remote-repository" id="toc-mengapa-kita-membutuhkan-remote-repository" class="nav-link" data-scroll-target="#mengapa-kita-membutuhkan-remote-repository">Mengapa Kita Membutuhkan Remote Repository?</a></li>
+  <li><a href="#cara-menggunakan-remote-repository" id="toc-cara-menggunakan-remote-repository" class="nav-link" data-scroll-target="#cara-menggunakan-remote-repository">Cara Menggunakan Remote Repository</a></li>
+  <li><a href="#kolaborasi-dengan-git" id="toc-kolaborasi-dengan-git" class="nav-link" data-scroll-target="#kolaborasi-dengan-git">Kolaborasi dengan Git</a></li>
+  <li><a href="#membuat-akun-github" id="toc-membuat-akun-github" class="nav-link" data-scroll-target="#membuat-akun-github">Membuat Akun GitHub</a></li>
+  </ul></li>
+  <li><a href="#latihan-membuat-proyek-sederhana-dengan-git" id="toc-latihan-membuat-proyek-sederhana-dengan-git" class="nav-link" data-scroll-target="#latihan-membuat-proyek-sederhana-dengan-git">Latihan Membuat Proyek Sederhana dengan Git</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Materi Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">optional : git for beginner</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Membuat Landing Page Dengan Webflow</a></li><li class="breadcrumb-item"><a href="../Hari 1/git_for_beginner.html">Version Control System dengan Git</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Version Control dengan Git</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">git</div>
-    <div class="quarto-category">version control</div>
-    <div class="quarto-category">vcs</div>
-  </div>
+<h1 class="title">Version Control System dengan Git</h1>
   </div>
 
-<div>
-  <div class="description">
-    di module ini kamu akan belajar tentang version control menggunakan git
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Sulthan A. Karimov </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -256,10 +298,344 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>pernahkan anda membuat karya tulis ilmiah? dalam proses nya anda sering kali membuat beberapa versi dari karya tulis tersebut, <code>versi #1 * versi #2 * versi final * versi revisi * fix * fix banget * fix bangeeeet</code>, bila karya tulis itu hanya terdiri dari satu atau dua halaman, anda masih bisa mengingat semuanya dengan baik.</p>
+<p>tapi bayangkan bila karya tulis itu ternyata berkembang menjadi beberapa bab, bagaimana cara anda melacak perubahan apa saja yang anda buat pada beberapa versi? sulit bukan?</p>
+<p>hal ini juga terjadi pada dunia programming. code yang anda tulis akan sering berubah seiring dengan perkembangan project. di sinilah Version Control System (VCS) mengambil peran.</p>
+<p><strong>VCS adalah sebuah alat perangkat lunak yang membantu merekam perubahan-perubahan dari sebuah berkas</strong>. dengan VCS anda bisa kembali ke versi manapun dari project yang sedang dikerjakan. sehingga ketika terjadi error anda dapat berpindah ke versi lain dari project anda sebelum error terjadi, seru bukan?</p>
+<p>bukan hanya itu, VCS juga memungkinkan tim anda untuk dapat bekerja secara paralel. dengan kemampuannya untuk merekam setiap perubahan, setiap anggota tim dapat mengerjakan project secara bersamaan tanpa perlu khawatir code yang ditulis ditimpa oleh anggota tim lain.</p>
+<p>pada awal kemunculannya, VCS adalah software yang terpusat. artinya, VCS dijalankan dalam sebuah server dan siapapun yang ingin mengaksesnya harus terus terhubung dengan internet. hal ini tentu menjadi sulit ketika pengakses tidak memiliki koneksi internet, atau memiliki koneksi internet yang buruk. untuk menjawab tantangan itu, muncullah VCS yang terdistribusi (distributed VCS).</p>
+<!--
+git adalah salah satu VCS terdistribusi yang sejak kemunculannya telah menyita perhatian banyak programmer. hingga muncul banyak penyedia repository gratis yang menggunakan git sebagai basis sistem mereka. tunggu apa lagi, ayo berkenalan dengan git.
+-->
+<section id="apa-itu-git" class="level2">
+<h2 class="anchored" data-anchor-id="apa-itu-git">Apa itu Git?</h2>
+<p><strong>Git adalah VCS terdistribusi yang dapat melacak perubahan pada sebuah berkas</strong>. Git sering digunakan oleh programmer dalam proses pengembangan perangkat lunak secara kolaboratif.</p>
+<p>Git ditemukan oleh <strong>Linus Torvalds</strong> yang juga menciptakan <strong>Kernel Linux</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Saat ini Git merupakan VCS terpopuler yang paling banyak dipakai. bukan hanya oleh programmer, Git juga telah banyak diadopsi dalam pengerjaan berbagai macam project.</p>
+<p>hal ini tentu terjadi bukan tanpa sebab. di bawah ini adalah beberapa alasan kenapa Git disukai sebagai solusi VCS:</p>
+<ul>
+<li><p><strong>Cepat dan Efisien,</strong> Git sangat cepat dalam melacak perubahan, bahkan untuk project yang sangat besar sekalipun. hal ini tentu menjadi keuntungan besar dalam pengerjaan project, kita tidak perlu membuang banyak waktu hanya untuk melacak perubahan, semua terjadi dengan sangat cepat dan berjalan di latar belakang.</p></li>
+<li><p><strong>Fleksibel,</strong> Git bisa anda gunakan di mana saja, baik itu di komputer pribadi, server, atau layanan cloud seperti GitHub.anda tidak perlu dedicated komputer untuk mengerjakan suatu project. anda dapat memulai di <code>device A</code> dan melanjutkannya di <code>device B</code> atau <code>device C</code>.</p></li>
+<li><p><strong>Terdistribusi,</strong> Setiap anggota tim memiliki salinan lengkap proyek, sehingga anda bisa bekerja secara mandiri tanpa harus selalu terhubung ke server pusat.</p></li>
+<li><p><strong>Open source,</strong> Git gratis dan bisa kalian gunakan secara bebas. mungkin ini adalah faktor terbesar yang mendongkrak popularitas Git. karena anda tidak perlu mengeluarkan biaya mahal untuk mulai menerapkan VCS dalam alur kerja project anda.</p></li>
+</ul>
+</section>
+<section id="kelebihan-git-dari-vcs-lain" class="level2">
+<h2 class="anchored" data-anchor-id="kelebihan-git-dari-vcs-lain">Kelebihan Git dari VCS lain</h2>
+<p>git memiliki banyak kelebihan yang dapat membuat pengerjaan berbagai macam project menjadi lebih efisien dan efektif. diantara kelebihan-kelebihan Git adalah:</p>
+<section id="desain-terdistribusi-yang-kuat" class="level3">
+<h3 class="anchored" data-anchor-id="desain-terdistribusi-yang-kuat"><strong>Desain Terdistribusi yang Kuat</strong></h3>
+<ul>
+<li><strong>Setiap Pengembang Punya Salinan Lengkap:</strong> Setiap anggota tim memiliki salinan lengkap repositori proyek. Ini berarti Anda bisa bekerja secara offline, melakukan commit, dan bahkan membuat cabang baru tanpa harus selalu terhubung ke server pusat.</li>
+<li><strong>Kinerja yang Lebih Baik:</strong> Operasi-operasi seperti commit, branch, dan merge umumnya lebih cepat karena dilakukan secara lokal.</li>
+<li><strong>Keamanan yang Lebih Tinggi:</strong> Jika server pusat mengalami masalah, Anda masih memiliki salinan proyek di komputer lokal Anda.</li>
+</ul>
+</section>
+<section id="cabang-branch-yang-fleksibel" class="level3">
+<h3 class="anchored" data-anchor-id="cabang-branch-yang-fleksibel"><strong>Cabang (Branch) yang Fleksibel</strong></h3>
+<ul>
+<li><strong>Membuat Cabang dengan Mudah:</strong> Git memungkinkan Anda membuat cabang baru dengan sangat cepat. Ini sangat berguna untuk mencoba fitur baru tanpa mengganggu kode utama.</li>
+<li><strong>Merge yang Canggih:</strong> Git memiliki algoritma merge yang sangat baik. Ini berarti Anda bisa menggabungkan perubahan dari beberapa cabang dengan mudah, bahkan jika ada konflik.</li>
+</ul>
+</section>
+<section id="komunitas-yang-besar-dan-aktif" class="level3">
+<h3 class="anchored" data-anchor-id="komunitas-yang-besar-dan-aktif"><strong>Komunitas yang Besar dan Aktif</strong></h3>
+<ul>
+<li><strong>Dukungan yang Luas:</strong> Git memiliki komunitas pengguna yang sangat besar dan aktif. Anda akan dengan mudah menemukan tutorial, dokumentasi, dan solusi untuk masalah yang Anda hadapi.</li>
+<li><strong>Banyak Alat dan Integrasi:</strong> Ada banyak alat dan layanan yang terintegrasi dengan Git, seperti GitHub, GitLab, dan Bitbucket. Ini membuat Git menjadi sangat serbaguna.</li>
+</ul>
+</section>
+<section id="kecepatan-dan-efisiensi" class="level3">
+<h3 class="anchored" data-anchor-id="kecepatan-dan-efisiensi"><strong>Kecepatan dan Efisiensi</strong></h3>
+<ul>
+<li><strong>Algoritma yang Optimal:</strong> Git menggunakan algoritma yang sangat efisien untuk menyimpan dan melacak perubahan pada file. Ini membuat Git sangat cepat, bahkan untuk proyek yang sangat besar.</li>
+<li><strong>Kompresi Data yang Baik:</strong> Git melakukan kompresi data dengan sangat baik, sehingga ukuran repositori Anda tetap terjaga.</li>
+</ul>
+</section>
+<section id="fleksibilitas" class="level3">
+<h3 class="anchored" data-anchor-id="fleksibilitas"><strong>Fleksibilitas</strong></h3>
+<ul>
+<li><strong>Non-Linear Development:</strong> Git sangat mendukung pengembangan non-linear. Anda bisa memiliki banyak cabang yang aktif secara bersamaan dan menggabungkan perubahan dari berbagai cabang dengan mudah.</li>
+<li><strong>Customizable Workflow:</strong> Git sangat fleksibel, sehingga Anda bisa menyesuaikan alur kerja sesuai dengan kebutuhan tim Anda.</li>
+</ul>
+</section>
+<section id="perbandingan-dengan-vcs-lain-contoh-svn" class="level3">
+<h3 class="anchored" data-anchor-id="perbandingan-dengan-vcs-lain-contoh-svn">Perbandingan dengan VCS Lain (Contoh: SVN)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Fitur</th>
+<th>Git</th>
+<th>SVN</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Distribusi</strong></td>
+<td>Terdistribusi</td>
+<td>Terpusat</td>
+</tr>
+<tr class="even">
+<td><strong>Cabang</strong></td>
+<td>Mudah dibuat dan digabungkan</td>
+<td>Agak rumit</td>
+</tr>
+<tr class="odd">
+<td><strong>Kinerja</strong></td>
+<td>Sangat cepat</td>
+<td>Relatif lambat</td>
+</tr>
+<tr class="even">
+<td><strong>Komunitas</strong></td>
+<td>Sangat besar</td>
+<td>Lebih kecil</td>
+</tr>
+<tr class="odd">
+<td><strong>Fleksibilitas</strong></td>
+<td>Sangat fleksibel</td>
+<td>Kurang fleksibel</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="konsep-dasar-git" class="level1">
+<h1>Konsep Dasar Git</h1>
+<p>Sebelum mulai menggunakan Git, alangkah baiknya anda pelajari dulu beberapa konsep dasar dalam Git. Beberapa istilah mungkin familiar hanya di kalangan programmer, tapi jangan khawatir, anda masih bisa mengimplementasikan Git di berbagai jenis project selain programming.</p>
+<section id="repository" class="level2">
+<h2 class="anchored" data-anchor-id="repository">1. Repository</h2>
+<ul>
+<li><strong>Pengertian:</strong> Repository adalah tempat penyimpanan semua file proyek dan riwayat perubahannya. Bayangkan seperti sebuah gudang besar tempat kita menyimpan semua versi dari proyek kita.</li>
+<li><strong>Jenis:</strong>
+<ul>
+<li><strong>Local Repository:</strong> Repository yang disimpan di komputer lokal Anda.</li>
+<li><strong>Remote Repository:</strong> Repository yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket.</li>
+</ul></li>
+</ul>
+</section>
+<section id="commit" class="level2">
+<h2 class="anchored" data-anchor-id="commit">2. Commit</h2>
+<ul>
+<li><strong>Pengertian:</strong> Commit adalah tindakan menyimpan perubahan pada file-file di repository. Setiap commit akan membuat snapshot dari proyek pada suatu titik waktu tertentu.</li>
+<li><strong>Fungsi:</strong>
+<ul>
+<li>Melacak perubahan: Setiap commit akan mencatat perubahan apa saja yang telah dilakukan.</li>
+<li>Membuat titik pengembalian: Jika terjadi kesalahan, kita bisa kembali ke commit sebelumnya.</li>
+</ul></li>
+</ul>
+</section>
+<section id="branch" class="level2">
+<h2 class="anchored" data-anchor-id="branch">3. Branch</h2>
+<ul>
+<li><strong>Pengertian:</strong> Branch adalah garis perkembangan dari sebuah proyek. Bayangkan seperti cabang pada pohon, setiap cabang mewakili satu alur pengembangan.</li>
+<li><strong>Fungsi:</strong>
+<ul>
+<li>Mengembangkan fitur baru secara terpisah: Kita bisa membuat cabang baru untuk mengembangkan fitur baru tanpa mengganggu kode utama.</li>
+<li>Eksperimen: Kita bisa mencoba hal-hal baru di cabang tanpa khawatir merusak kode utama.</li>
+</ul></li>
+</ul>
+</section>
+<section id="merge" class="level2">
+<h2 class="anchored" data-anchor-id="merge">4. Merge</h2>
+<ul>
+<li><strong>Pengertian:</strong> Merge adalah proses menggabungkan perubahan dari satu cabang ke cabang lainnya.</li>
+<li><strong>Fungsi:</strong>
+<ul>
+<li>Menggabungkan fitur baru ke cabang utama: Setelah selesai mengembangkan fitur baru, kita bisa menggabungkan perubahannya ke cabang utama.</li>
+<li>Menyelesaikan konflik: Jika ada perubahan yang bertentangan antara dua cabang, Git akan menandai konflik tersebut dan kita perlu menyelesaikannya secara manual.</li>
+</ul></li>
+</ul>
+</section>
+<section id="contoh-sederhana-penggunaan-git" class="level2">
+<h2 class="anchored" data-anchor-id="contoh-sederhana-penggunaan-git">Contoh Sederhana Penggunaan Git</h2>
+<p>Misalkan kita sedang membuat sebuah website. Kita mulai dengan membuat halaman beranda. Kemudian, kita ingin menambahkan halaman tentang.</p>
+<ol type="1">
+<li><strong>Buat Repository:</strong> Kita membuat repository baru untuk proyek website kita.</li>
+<li><strong>Buat Commit Pertama:</strong> Kita menyimpan halaman beranda sebagai commit pertama.</li>
+<li><strong>Buat Cabang Baru:</strong> Kita membuat cabang baru bernama “halaman-tentang” untuk mengembangkan halaman tentang.</li>
+<li><strong>Kerjakan Halaman Tentang:</strong> Kita membuat perubahan pada file untuk halaman tentang di cabang “halaman-tentang”.</li>
+<li><strong>Commit Perubahan:</strong> Kita menyimpan perubahan pada cabang “halaman-tentang”.</li>
+<li><strong>Gabungkan Cabang:</strong> Setelah selesai, kita menggabungkan perubahan dari cabang “halaman-tentang” ke cabang utama.</li>
+</ol>
+</section>
+<section id="visualisasi-git" class="level2">
+<h2 class="anchored" data-anchor-id="visualisasi-git">Visualisasi Git</h2>
+<p>Untuk lebih memahami konsep-konsep ini, mari kita lihat visualisasi sederhana berikut:</p>
+<p><img src="../img/git visualization.png" class="img-fluid"></p>
+<p><strong>Penjelasan Gambar:</strong></p>
+<ul>
+<li><strong>Main branch:</strong> Cabang utama dari proyek.</li>
+<li><strong>Feature branch:</strong> Cabang yang dibuat untuk mengembangkan fitur baru.</li>
+<li><strong>Commit:</strong> Setiap titik pada garis mewakili sebuah commit.</li>
+<li><strong>Merge:</strong> Garis yang menghubungkan dua cabang menunjukkan proses merge.</li>
+</ul>
+</section>
+</section>
+<section id="menggunakan-git-di-terminal" class="level1">
+<h1>Menggunakan Git di Terminal</h1>
+<p>Git dapat anda gunakan di berbagai platform. ukuran package nya pun tidak besar sehingga tidak akan mememberatkan system anda. untuk mulai menggunakan Git, anda perlu menginstall dan melakukan konfigurasi awal. setelah itu, anda bisa mulai mengimplementasikan git ke dalam project anda.</p>
+<section id="instalasi-git" class="level2">
+<h2 class="anchored" data-anchor-id="instalasi-git">1. <strong>Instalasi Git</strong></h2>
+<ul>
+<li><strong>Windows:</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>
+<ul>
+<li>Unduh installer Git dari situs resmi (<a href="https://git-scm.com/">https://git-scm.com/</a>).</li>
+<li>Jalankan installer dan ikuti petunjuk di layar.</li>
+</ul></li>
+<li><strong>macOS:</strong>
+<ul>
+<li>Cara termudah adalah dengan menginstal Xcode Command Line Tools. Buka Terminal dan ketik <code>xcode-select --install</code>.</li>
+</ul></li>
+<li><strong>Linux:</strong>
+<ul>
+<li>Gunakan package manager distribusi Linux Anda. Contoh: <code>sudo apt install git</code> (untuk Ubuntu/Debian).</li>
+</ul></li>
+</ul>
+<section id="konfigurasi-awal" class="level3">
+<h3 class="anchored" data-anchor-id="konfigurasi-awal">2. <strong>Konfigurasi Awal</strong></h3>
+<p>Setelah Git terinstal, atur nama pengguna dan email Anda yang akan tercatat dalam setiap commit:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Nama Anda"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"alamat_email@contoh.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Perintah <code>--global</code> membuat konfigurasi berlaku untuk semua repositori Git di komputer Anda.</p>
+</section>
+</section>
+<section id="perintah-dasar-git" class="level2">
+<h2 class="anchored" data-anchor-id="perintah-dasar-git">3. <strong>Perintah Dasar Git</strong></h2>
+<ul>
+<li><strong><code>git init</code>:</strong> Membuat repository Git baru di direktori saat ini.</li>
+<li><strong><code>git clone &lt;url&gt;</code>:</strong> Mengunduh repository dari remote ke komputer lokal.</li>
+<li><strong><code>git add &lt;file&gt;</code>:</strong> Menambahkan perubahan pada file ke staging area.</li>
+<li><strong><code>git commit -m "Pesan commit"</code>:</strong> Menyimpan perubahan yang telah ditambahkan ke staging area ke repository.</li>
+<li><strong><code>git status</code>:</strong> Menampilkan status repository saat ini (perubahan yang belum di-commit, cabang aktif, dll.).</li>
+<li><strong><code>git log</code>:</strong> Menampilkan riwayat commit.</li>
+<li><strong><code>git branch</code>:</strong> Menampilkan daftar cabang.</li>
+<li><strong><code>git branch &lt;nama_cabang&gt;</code>:</strong> Membuat cabang baru.</li>
+<li><strong><code>git checkout &lt;nama_cabang&gt;</code>:</strong> Beralih ke cabang yang berbeda.</li>
+<li><strong><code>git merge &lt;nama_cabang&gt;</code>:</strong> Menggabungkan perubahan dari satu cabang ke cabang lain.</li>
+<li><strong><code>git push &lt;remote&gt; &lt;branch&gt;</code>:</strong> Mendorong perubahan ke remote repository.</li>
+<li><strong><code>git pull &lt;remote&gt; &lt;branch&gt;</code>:</strong> Mengambil perubahan dari remote repository.</li>
+</ul>
+</section>
+<section id="contoh-penggunaan" class="level2">
+<h2 class="anchored" data-anchor-id="contoh-penggunaan">Contoh Penggunaan</h2>
+<ol type="1">
+<li><p><strong>Membuat Proyek Baru:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> proyek_baru</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> proyek_baru</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Menambahkan File dan Commit:</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> README.md</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Proyek baru saya"</span> <span class="op">&gt;</span> README.md</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add README.md</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Membuat file README"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Membuat Cabang Baru:</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> branch fitur_baru</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Beralih ke Cabang Baru dan Membuat Perubahan:</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout fitur_baru</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Buat perubahan pada file</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Menambahkan fitur baru"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Menggabungkan Cabang:</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge fitur_baru</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h1 id="git-remote-dan-kolaborasi">Git Remote dan Kolaborasi</h1>
+<h2 id="apa-itu-remote-repository" class="anchored">Apa itu Remote Repository?</h2>
+<p>Remote repository adalah repository Git yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket. Berbeda dengan local repository yang disimpan di komputer lokal Anda, remote repository berfungsi sebagai pusat penyimpanan kode yang bisa diakses oleh banyak orang.</p></li>
+</ol>
+</section>
+<section id="mengapa-kita-membutuhkan-remote-repository" class="level2">
+<h2 class="anchored" data-anchor-id="mengapa-kita-membutuhkan-remote-repository">Mengapa Kita Membutuhkan Remote Repository?</h2>
+<ul>
+<li><strong>Kolaborasi:</strong> Beberapa orang bisa bekerja bersama dalam satu proyek.</li>
+<li><strong>Backup:</strong> Kode Anda tersimpan di tempat yang aman dan dapat diakses dari mana saja.</li>
+<li><strong>Version Control:</strong> Anda bisa melihat sejarah perubahan kode secara lebih detail.</li>
+<li><strong>Open Source:</strong> Anda bisa berkontribusi pada proyek open source.</li>
+</ul>
+</section>
+<section id="cara-menggunakan-remote-repository" class="level2">
+<h2 class="anchored" data-anchor-id="cara-menggunakan-remote-repository">Cara Menggunakan Remote Repository</h2>
+<ol type="1">
+<li><strong>Membuat Akun:</strong>
+<ul>
+<li>Pilih platform hosting Git seperti GitHub, GitLab, atau Bitbucket.</li>
+<li>Buat akun dan verifikasi email Anda.</li>
+</ul></li>
+<li><strong>Membuat Remote Repository:</strong>
+<ul>
+<li>Di platform yang Anda pilih, buat repository baru.</li>
+<li>Anda akan diberikan URL unik untuk repository tersebut.</li>
+</ul></li>
+<li><strong>Menambahkan Remote:</strong>
+<ul>
+<li><p>Buka terminal Anda dan masuk ke direktori proyek lokal Anda.</p></li>
+<li><p>Gunakan perintah berikut untuk menambahkan remote:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote add origin <span class="op">&lt;</span>url_remote_repository<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ganti <code>&lt;url_remote_repository&gt;</code> dengan URL yang diberikan oleh platform hosting Anda.</p></li>
+</ul></li>
+<li><strong>Mendorong Perubahan (Push):</strong>
+<ul>
+<li><p>Setelah membuat perubahan dan melakukan commit di local repository, gunakan perintah berikut untuk mendorong perubahan ke remote repository:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push <span class="at">-u</span> origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Perintah ini akan membuat cabang <code>main</code> di remote repository jika belum ada.</p></li>
+</ul></li>
+<li><strong>Mengambil Perubahan (Pull):</strong>
+<ul>
+<li><p>Untuk mengambil perubahan terbaru dari remote repository, gunakan perintah:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull origin main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ol>
+</section>
+<section id="kolaborasi-dengan-git" class="level2">
+<h2 class="anchored" data-anchor-id="kolaborasi-dengan-git">Kolaborasi dengan Git</h2>
+<p>Kolaborasi dengan Git sangat mudah. Berikut adalah beberapa cara umum:</p>
+<ul>
+<li><strong>Forking:</strong> Membuat salinan dari repository orang lain ke akun Anda. Ini memungkinkan Anda membuat perubahan tanpa memengaruhi repository asli.</li>
+<li><strong>Pull Request:</strong> Mengusulkan perubahan pada repository orang lain. Pemilik repository dapat meninjau dan menggabungkan perubahan Anda.</li>
+<li><strong>Issue Tracking:</strong> Melaporkan bug atau meminta fitur baru.</li>
+<li><strong>Code Review:</strong> Meninjau kode yang dibuat oleh anggota tim lainnya.</li>
+</ul>
+</section>
+<section id="membuat-akun-github" class="level2">
+<h2 class="anchored" data-anchor-id="membuat-akun-github">Membuat Akun GitHub</h2>
+<p>GitHub adalah platform hosting Git yang paling populer. Untuk membuat akun GitHub:</p>
+<ol type="1">
+<li>Buka situs web GitHub (<a href="https://github.com/">https://github.com/</a>).</li>
+<li>Klik tombol “Sign up”.</li>
+<li>Isi formulir pendaftaran dengan informasi yang diminta.</li>
+<li>Verifikasi email Anda.</li>
+</ol>
+<p><strong>Tips Tambahan:</strong></p>
+<ul>
+<li><strong>Gunakan Cabang:</strong> Buat cabang baru untuk setiap fitur atau perbaikan bug. Ini akan memudahkan Anda untuk mengelola perubahan dan menghindari konflik.</li>
+<li><strong>Tulis Commit Message yang Baik:</strong> Commit message yang jelas dan ringkas akan membantu Anda dan tim Anda memahami perubahan yang telah dilakukan.</li>
+<li><strong>Manfaatkan Fitur GitHub:</strong> GitHub menyediakan banyak fitur seperti issue tracking, code review, dan wiki yang dapat membantu Anda dalam kolaborasi.</li>
+</ul>
+<p><strong>Contoh Sederhana:</strong></p>
+<ol type="1">
+<li>Anda membuat proyek baru secara lokal.</li>
+<li>Anda membuat akun GitHub dan membuat repository baru.</li>
+<li>Anda menambahkan remote repository ke proyek lokal Anda.</li>
+<li>Anda membuat perubahan pada kode dan melakukan commit.</li>
+<li>Anda mendorong perubahan ke remote repository.</li>
+<li>Teman Anda meng-clone repository Anda dan membuat cabang baru untuk menambahkan fitur baru.</li>
+<li>Teman Anda membuat pull request untuk menggabungkan fitur barunya ke cabang utama.</li>
+<li>Anda meninjau perubahan dan menggabungkan pull request.</li>
+</ol>
+</section>
+</section>
+<section id="latihan-membuat-proyek-sederhana-dengan-git" class="level1">
+<h1>Latihan Membuat Proyek Sederhana dengan Git</h1>
 
 
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://github.com/torvalds/linux">https://github.com/torvalds/linux</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>untuk membuka terminal git di windows anda dapat menggunakan <code>Git BASH</code><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
