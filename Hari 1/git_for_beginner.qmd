@@ -1,10 +1,282 @@
 ---
-title: Version Control dengan Git
-description: di module ini kamu akan belajar tentang version control menggunakan git
-date: 10/01/2024
-author: Sulthan A. Karimov
+title: Version Control System dengan Git
+#description: di module ini kamu akan belajar tentang version control menggunakan git
+#date: 10/01/2024
+#author: Sulthan A. Karimov
 categories: [git, version control, vcs]
 draft: false
 show: true
 freeze: true
 ---
+
+pernahkan anda membuat karya tulis ilmiah? dalam proses nya anda sering kali membuat beberapa versi dari karya tulis tersebut, ```versi #1 * versi #2 * versi final * versi revisi * fix * fix banget * fix bangeeeet```, bila karya tulis itu hanya terdiri dari satu atau dua halaman, anda masih bisa mengingat semuanya dengan baik. 
+
+tapi bayangkan bila karya tulis itu ternyata berkembang menjadi beberapa bab, bagaimana cara anda melacak perubahan apa saja yang anda buat pada beberapa versi? sulit bukan?
+
+hal ini juga terjadi pada dunia programming. code yang anda tulis akan sering berubah seiring dengan perkembangan project. di sinilah Version Control System (VCS) mengambil peran.
+
+**VCS adalah sebuah alat perangkat lunak yang membantu merekam perubahan-perubahan dari sebuah berkas**. dengan VCS anda bisa kembali ke versi manapun dari project yang sedang dikerjakan. sehingga ketika terjadi error anda dapat berpindah ke versi lain dari project anda sebelum error terjadi, seru bukan?
+
+bukan hanya itu, VCS juga memungkinkan tim anda untuk dapat bekerja secara paralel. dengan kemampuannya untuk merekam setiap perubahan, setiap anggota tim dapat mengerjakan project secara bersamaan tanpa perlu khawatir code yang ditulis ditimpa oleh anggota tim lain.
+
+pada awal kemunculannya, VCS adalah software yang terpusat. artinya, VCS dijalankan dalam sebuah server dan siapapun yang ingin mengaksesnya harus terus terhubung dengan internet. hal ini tentu menjadi sulit ketika pengakses tidak memiliki koneksi internet, atau memiliki koneksi internet yang buruk. untuk menjawab tantangan itu, muncullah VCS yang terdistribusi (distributed VCS). 
+
+<!--
+git adalah salah satu VCS terdistribusi yang sejak kemunculannya telah menyita perhatian banyak programmer. hingga muncul banyak penyedia repository gratis yang menggunakan git sebagai basis sistem mereka. tunggu apa lagi, ayo berkenalan dengan git.
+-->
+
+## Apa itu Git?
+**Git adalah VCS terdistribusi yang dapat melacak perubahan pada sebuah berkas**. Git sering digunakan oleh programmer dalam proses pengembangan perangkat lunak secara kolaboratif.
+
+Git ditemukan oleh **Linus Torvalds** yang juga menciptakan **Kernel Linux**[^linux]. Saat ini Git merupakan VCS terpopuler yang paling banyak dipakai. bukan hanya oleh programmer, Git juga telah banyak diadopsi dalam pengerjaan berbagai macam project. 
+
+hal ini tentu terjadi bukan tanpa sebab. di bawah ini adalah beberapa alasan kenapa Git disukai sebagai solusi VCS:
+
+* **Cepat dan Efisien,** Git sangat cepat dalam melacak perubahan, bahkan untuk project yang sangat besar sekalipun. hal ini tentu menjadi keuntungan besar dalam pengerjaan project, kita tidak perlu membuang banyak waktu hanya untuk melacak perubahan, semua terjadi dengan sangat cepat dan berjalan di latar belakang.
+
+* **Fleksibel,** Git bisa anda gunakan di mana saja, baik itu di komputer pribadi, server, atau layanan cloud seperti GitHub.anda tidak perlu dedicated komputer untuk mengerjakan suatu project. anda dapat memulai di ```device A``` dan melanjutkannya di ```device B``` atau ```device C```.
+
+* **Terdistribusi,** Setiap anggota tim memiliki salinan lengkap proyek, sehingga anda bisa bekerja secara mandiri tanpa harus selalu terhubung ke server pusat. 
+
+* **Open source,** Git gratis dan bisa kalian gunakan secara bebas. mungkin ini adalah faktor terbesar yang mendongkrak popularitas Git. karena anda tidak perlu mengeluarkan biaya mahal untuk mulai menerapkan VCS dalam alur kerja project anda.
+
+[^linux]: [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
+
+## Kelebihan Git dari VCS lain
+
+git memiliki banyak kelebihan yang dapat membuat pengerjaan berbagai macam project menjadi lebih efisien dan efektif. diantara kelebihan-kelebihan Git adalah:
+
+### **Desain Terdistribusi yang Kuat**
+
+* **Setiap Pengembang Punya Salinan Lengkap:** Setiap anggota tim memiliki salinan lengkap repositori proyek. Ini berarti Anda bisa bekerja secara offline, melakukan commit, dan bahkan membuat cabang baru tanpa harus selalu terhubung ke server pusat.
+* **Kinerja yang Lebih Baik:** Operasi-operasi seperti commit, branch, dan merge umumnya lebih cepat karena dilakukan secara lokal.
+* **Keamanan yang Lebih Tinggi:** Jika server pusat mengalami masalah, Anda masih memiliki salinan proyek di komputer lokal Anda.
+
+### **Cabang (Branch) yang Fleksibel**
+
+* **Membuat Cabang dengan Mudah:** Git memungkinkan Anda membuat cabang baru dengan sangat cepat. Ini sangat berguna untuk mencoba fitur baru tanpa mengganggu kode utama.
+* **Merge yang Canggih:** Git memiliki algoritma merge yang sangat baik. Ini berarti Anda bisa menggabungkan perubahan dari beberapa cabang dengan mudah, bahkan jika ada konflik.
+
+### **Komunitas yang Besar dan Aktif**
+
+* **Dukungan yang Luas:** Git memiliki komunitas pengguna yang sangat besar dan aktif. Anda akan dengan mudah menemukan tutorial, dokumentasi, dan solusi untuk masalah yang Anda hadapi.
+* **Banyak Alat dan Integrasi:** Ada banyak alat dan layanan yang terintegrasi dengan Git, seperti GitHub, GitLab, dan Bitbucket. Ini membuat Git menjadi sangat serbaguna.
+
+### **Kecepatan dan Efisiensi**
+
+* **Algoritma yang Optimal:** Git menggunakan algoritma yang sangat efisien untuk menyimpan dan melacak perubahan pada file. Ini membuat Git sangat cepat, bahkan untuk proyek yang sangat besar.
+* **Kompresi Data yang Baik:** Git melakukan kompresi data dengan sangat baik, sehingga ukuran repositori Anda tetap terjaga.
+
+### **Fleksibilitas**
+
+* **Non-Linear Development:** Git sangat mendukung pengembangan non-linear. Anda bisa memiliki banyak cabang yang aktif secara bersamaan dan menggabungkan perubahan dari berbagai cabang dengan mudah.
+* **Customizable Workflow:** Git sangat fleksibel, sehingga Anda bisa menyesuaikan alur kerja sesuai dengan kebutuhan tim Anda.
+
+### Perbandingan dengan VCS Lain (Contoh: SVN)
+
+| Fitur | Git | SVN |
+|---|---|---|
+| **Distribusi** | Terdistribusi | Terpusat |
+| **Cabang** | Mudah dibuat dan digabungkan | Agak rumit |
+| **Kinerja** | Sangat cepat | Relatif lambat |
+| **Komunitas** | Sangat besar | Lebih kecil |
+| **Fleksibilitas** | Sangat fleksibel | Kurang fleksibel |
+
+# Konsep Dasar Git
+Sebelum mulai menggunakan Git, alangkah baiknya anda pelajari dulu beberapa konsep dasar dalam Git. Beberapa istilah mungkin familiar hanya di kalangan programmer, tapi jangan khawatir, anda masih bisa mengimplementasikan Git di berbagai jenis project selain programming.
+
+## 1. Repository
+* **Pengertian:** Repository adalah tempat penyimpanan semua file proyek dan riwayat perubahannya. Bayangkan seperti sebuah gudang besar tempat kita menyimpan semua versi dari proyek kita.
+* **Jenis:**
+    * **Local Repository:** Repository yang disimpan di komputer lokal Anda.
+    * **Remote Repository:** Repository yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket.
+
+## 2. Commit
+* **Pengertian:** Commit adalah tindakan menyimpan perubahan pada file-file di repository. Setiap commit akan membuat snapshot dari proyek pada suatu titik waktu tertentu.
+* **Fungsi:**
+    * Melacak perubahan: Setiap commit akan mencatat perubahan apa saja yang telah dilakukan.
+    * Membuat titik pengembalian: Jika terjadi kesalahan, kita bisa kembali ke commit sebelumnya.
+
+## 3. Branch
+* **Pengertian:** Branch adalah garis perkembangan dari sebuah proyek. Bayangkan seperti cabang pada pohon, setiap cabang mewakili satu alur pengembangan.
+* **Fungsi:**
+    * Mengembangkan fitur baru secara terpisah: Kita bisa membuat cabang baru untuk mengembangkan fitur baru tanpa mengganggu kode utama.
+    * Eksperimen: Kita bisa mencoba hal-hal baru di cabang tanpa khawatir merusak kode utama.
+
+## 4. Merge
+* **Pengertian:** Merge adalah proses menggabungkan perubahan dari satu cabang ke cabang lainnya.
+* **Fungsi:**
+    * Menggabungkan fitur baru ke cabang utama: Setelah selesai mengembangkan fitur baru, kita bisa menggabungkan perubahannya ke cabang utama.
+    * Menyelesaikan konflik: Jika ada perubahan yang bertentangan antara dua cabang, Git akan menandai konflik tersebut dan kita perlu menyelesaikannya secara manual.
+
+## Contoh Sederhana Penggunaan Git
+
+Misalkan kita sedang membuat sebuah website. Kita mulai dengan membuat halaman beranda. Kemudian, kita ingin menambahkan halaman tentang.
+
+1. **Buat Repository:** Kita membuat repository baru untuk proyek website kita.
+2. **Buat Commit Pertama:** Kita menyimpan halaman beranda sebagai commit pertama.
+3. **Buat Cabang Baru:** Kita membuat cabang baru bernama "halaman-tentang" untuk mengembangkan halaman tentang.
+4. **Kerjakan Halaman Tentang:** Kita membuat perubahan pada file untuk halaman tentang di cabang "halaman-tentang".
+5. **Commit Perubahan:** Kita menyimpan perubahan pada cabang "halaman-tentang".
+6. **Gabungkan Cabang:** Setelah selesai, kita menggabungkan perubahan dari cabang "halaman-tentang" ke cabang utama.
+
+## Visualisasi Git
+
+Untuk lebih memahami konsep-konsep ini, mari kita lihat visualisasi sederhana berikut:
+
+![](../img/git%20visualization.png)
+
+**Penjelasan Gambar:**
+
+* **Main branch:** Cabang utama dari proyek.
+* **Feature branch:** Cabang yang dibuat untuk mengembangkan fitur baru.
+* **Commit:** Setiap titik pada garis mewakili sebuah commit.
+* **Merge:** Garis yang menghubungkan dua cabang menunjukkan proses merge.
+
+# Menggunakan Git di Terminal
+Git dapat anda gunakan di berbagai platform. ukuran package nya pun tidak besar sehingga tidak akan mememberatkan system anda. untuk mulai menggunakan Git, anda perlu menginstall dan melakukan konfigurasi awal. setelah itu, anda bisa mulai mengimplementasikan git ke dalam project anda.
+
+## 1. **Instalasi Git**
+
+* **Windows:**^[untuk membuka terminal git di windows anda dapat menggunakan ```Git BASH```]
+   * Unduh installer Git dari situs resmi ([https://git-scm.com/](https://git-scm.com/)).
+   * Jalankan installer dan ikuti petunjuk di layar.
+* **macOS:**
+   * Cara termudah adalah dengan menginstal Xcode Command Line Tools. Buka Terminal dan ketik `xcode-select --install`.
+* **Linux:**
+   * Gunakan package manager distribusi Linux Anda. Contoh: `sudo apt install git` (untuk Ubuntu/Debian).
+
+### 2. **Konfigurasi Awal**
+
+Setelah Git terinstal, atur nama pengguna dan email Anda yang akan tercatat dalam setiap commit:
+
+```bash
+git config --global user.name "Nama Anda"
+git config --global user.email "alamat_email@contoh.com"
+```
+
+Perintah `--global` membuat konfigurasi berlaku untuk semua repositori Git di komputer Anda.
+
+## 3. **Perintah Dasar Git**
+
+* **`git init`:** Membuat repository Git baru di direktori saat ini.
+* **`git clone <url>`:** Mengunduh repository dari remote ke komputer lokal.
+* **`git add <file>`:** Menambahkan perubahan pada file ke staging area.
+* **`git commit -m "Pesan commit"`:** Menyimpan perubahan yang telah ditambahkan ke staging area ke repository.
+* **`git status`:** Menampilkan status repository saat ini (perubahan yang belum di-commit, cabang aktif, dll.).
+* **`git log`:** Menampilkan riwayat commit.
+* **`git branch`:** Menampilkan daftar cabang.
+* **`git branch <nama_cabang>`:** Membuat cabang baru.
+* **`git checkout <nama_cabang>`:** Beralih ke cabang yang berbeda.
+* **`git merge <nama_cabang>`:** Menggabungkan perubahan dari satu cabang ke cabang lain.
+* **`git push <remote> <branch>`:** Mendorong perubahan ke remote repository.
+* **`git pull <remote> <branch>`:** Mengambil perubahan dari remote repository.
+
+## Contoh Penggunaan
+
+1. **Membuat Proyek Baru:**
+   ```bash
+   mkdir proyek_baru
+   cd proyek_baru
+   git init
+   ```
+2. **Menambahkan File dan Commit:**
+   ```bash
+   touch README.md
+   echo "Proyek baru saya" > README.md
+   git add README.md
+   git commit -m "Membuat file README"
+   ```
+3. **Membuat Cabang Baru:**
+   ```bash
+   git branch fitur_baru
+   ```
+4. **Beralih ke Cabang Baru dan Membuat Perubahan:**
+   ```bash
+   git checkout fitur_baru
+   # Buat perubahan pada file
+   git add .
+   git commit -m "Menambahkan fitur baru"
+   ```
+5. **Menggabungkan Cabang:**
+   ```bash
+   git checkout main
+   git merge fitur_baru
+   ```
+# Git Remote dan Kolaborasi
+## Apa itu Remote Repository?
+Remote repository adalah repository Git yang disimpan di server, seperti GitHub, GitLab, atau Bitbucket. Berbeda dengan local repository yang disimpan di komputer lokal Anda, remote repository berfungsi sebagai pusat penyimpanan kode yang bisa diakses oleh banyak orang.
+
+## Mengapa Kita Membutuhkan Remote Repository?
+* **Kolaborasi:** Beberapa orang bisa bekerja bersama dalam satu proyek.
+* **Backup:** Kode Anda tersimpan di tempat yang aman dan dapat diakses dari mana saja.
+* **Version Control:** Anda bisa melihat sejarah perubahan kode secara lebih detail.
+* **Open Source:** Anda bisa berkontribusi pada proyek open source.
+
+## Cara Menggunakan Remote Repository
+
+1. **Membuat Akun:**
+   * Pilih platform hosting Git seperti GitHub, GitLab, atau Bitbucket.
+   * Buat akun dan verifikasi email Anda.
+
+2. **Membuat Remote Repository:**
+   * Di platform yang Anda pilih, buat repository baru.
+   * Anda akan diberikan URL unik untuk repository tersebut.
+
+3. **Menambahkan Remote:**
+   * Buka terminal Anda dan masuk ke direktori proyek lokal Anda.
+   * Gunakan perintah berikut untuk menambahkan remote:
+     ```bash
+     git remote add origin <url_remote_repository>
+     ```
+     Ganti `<url_remote_repository>` dengan URL yang diberikan oleh platform hosting Anda.
+
+4. **Mendorong Perubahan (Push):**
+   * Setelah membuat perubahan dan melakukan commit di local repository, gunakan perintah berikut untuk mendorong perubahan ke remote repository:
+     ```bash
+     git push -u origin main
+     ```
+     Perintah ini akan membuat cabang `main` di remote repository jika belum ada.
+
+5. **Mengambil Perubahan (Pull):**
+   * Untuk mengambil perubahan terbaru dari remote repository, gunakan perintah:
+     ```bash
+     git pull origin main
+     ```
+
+## Kolaborasi dengan Git
+
+Kolaborasi dengan Git sangat mudah. Berikut adalah beberapa cara umum:
+
+* **Forking:** Membuat salinan dari repository orang lain ke akun Anda. Ini memungkinkan Anda membuat perubahan tanpa memengaruhi repository asli.
+* **Pull Request:** Mengusulkan perubahan pada repository orang lain. Pemilik repository dapat meninjau dan menggabungkan perubahan Anda.
+* **Issue Tracking:** Melaporkan bug atau meminta fitur baru.
+* **Code Review:** Meninjau kode yang dibuat oleh anggota tim lainnya.
+
+## Membuat Akun GitHub
+
+GitHub adalah platform hosting Git yang paling populer. Untuk membuat akun GitHub:
+
+1. Buka situs web GitHub ([https://github.com/](https://github.com/)).
+2. Klik tombol "Sign up".
+3. Isi formulir pendaftaran dengan informasi yang diminta.
+4. Verifikasi email Anda.
+
+**Tips Tambahan:**
+
+* **Gunakan Cabang:** Buat cabang baru untuk setiap fitur atau perbaikan bug. Ini akan memudahkan Anda untuk mengelola perubahan dan menghindari konflik.
+* **Tulis Commit Message yang Baik:** Commit message yang jelas dan ringkas akan membantu Anda dan tim Anda memahami perubahan yang telah dilakukan.
+* **Manfaatkan Fitur GitHub:** GitHub menyediakan banyak fitur seperti issue tracking, code review, dan wiki yang dapat membantu Anda dalam kolaborasi.
+
+**Contoh Sederhana:**
+
+1. Anda membuat proyek baru secara lokal.
+2. Anda membuat akun GitHub dan membuat repository baru.
+3. Anda menambahkan remote repository ke proyek lokal Anda.
+4. Anda membuat perubahan pada kode dan melakukan commit.
+5. Anda mendorong perubahan ke remote repository.
+6. Teman Anda meng-clone repository Anda dan membuat cabang baru untuk menambahkan fitur baru.
+7. Teman Anda membuat pull request untuk menggabungkan fitur barunya ke cabang utama.
+8. Anda meninjau perubahan dan menggabungkan pull request.
+
+# Latihan Membuat Proyek Sederhana dengan Git

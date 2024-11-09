@@ -1,8 +1,8 @@
 ---
-title: HTML dan CSS untuk Pemula
+title: Membangun Web dengan HTML CSS dan Javascript
 description: di module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS
-date: 10/01/2024
-author: Sulthan A. Karimov
+#date: 10/01/2024
+#author: Sulthan A. Karimov
 categories: [html, css, web development]
 draft: false
 show: true
@@ -10,6 +10,44 @@ freeze: true
 include-after-body:
   text: <script type="module" src="../js/livecodes.js"></script>
 ---
+
+# Mengenal Dunia Web dan HTML
+
+## Web - Dunia **_Lain_** yang Melingkupi Dunia Kita
+
+## Struktur Dasar HTML
+
+## Semantik HTML
+
+## Formulir HTML
+
+# Tampil Makin Stylish dengan CSS
+
+## Apa itu CSS?
+
+## **selector** dalam CSS
+
+## **property** dalam CSS
+
+## **layout** dalam CSS
+
+## Responsive Design
+
+# Power-up HTML dengan Javascript
+
+## Apa itu Javascript
+
+## Variabel dan Tipe Data dalam Javascript
+
+## Control Flow dalam Javascript
+
+## Fungsi dalam Javascript
+
+## Manipulasi DOM dengan Javascript
+
+## Event Handling
+
+# Latihan Membuat Website Interaktif dengan Javascript
 
 ::: {#livecodes}
 :::

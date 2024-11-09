@@ -9,8 +9,8 @@ website:
     search: true
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/SIBERPRO-OFFICIAL
+      #- icon: github
+      #  href: https://github.com/SIBERPRO-OFFICIAL
       - icon: twitter
         href: https://twitter.com/siberpro
       - icon: linkedin
@@ -20,15 +20,15 @@ website:
     background: light
     pinned: true
     border: true
+    collapse-level: 0
     contents:
       - text: Daftar Isi
       - text: Pendahuluan
         href: index.qmd
       - text:
-      - section: "Materi Membuat Landing Page Dengan Webflow"
+      - section: "Membuat Landing Page Dengan Webflow"
         contents:
-          - text: "optional : git for beginner"
-            href: Hari 1/git_for_beginner.qmd
+          - Hari 1/git_for_beginner.qmd
           - Hari 1/html_css_for_beginner.qmd
           - Hari 1/landing_page_with_webflow.qmd
       - section: "Praktek Membuat Landing Page Dengan Webflow"
@@ -48,6 +48,6 @@ format:
     toc: true
     toc-depth: 4
     toc-location: right
-    title-block-categories: true
+    title-block-categories: false
 execute:
   freeze: auto
