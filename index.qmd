@@ -10,7 +10,7 @@ title-block-categories: false
 ---
 ## Selamat Datang, Pejuang Siber! 
 
-![](img/pendahuluan.png){fig-align="center"}
+![](assets/img/pendahuluan.png){fig-align="center"}
 
 Siap untuk menjelajah dunia desain web yang seru dan kreatif? Di kelas ini, anda akan belajar bagaimana membangun **landing page yang responsif dan memukau** menggunakan **Webflow**. 
 

@@ -4,8 +4,9 @@ project:
 website:
   title: ""
   description: "di kelas ini kamu akan belajar tentang pembuatan webflow secara mendasar, mulai dari apa itu html dan css, membuat halaman web sederhana dengan html dan css dan akan dilanjutkan dengan membuat landing page interactive dengan webflow"
+  favicon: assets/img/logo.png
   navbar:
-    logo: img/logo_cropped.png
+    logo: assets/img/logo_cropped.png
     search: true
     right:
       - about.qmd
@@ -44,7 +45,7 @@ website:
 format:
   html:
     theme: sandstone
-    css: styles.css
+    css: assets/styles.css
     toc: true
     toc-depth: 4
     toc-location: right

@@ -124,7 +124,7 @@ Misalkan kita sedang membuat sebuah website. Kita mulai dengan membuat halaman b
 
 Untuk lebih memahami konsep-konsep ini, mari kita lihat visualisasi sederhana berikut:
 
-![](../img/git%20visualization.png)
+![](../assets/img/git%20visualization.png)
 
 **Penjelasan Gambar:**
 
