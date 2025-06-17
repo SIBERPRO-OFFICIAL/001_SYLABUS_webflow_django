@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="di module ini kamu akan belajar tentang landing page dan bagaimana membangun landing page pertamamu dengan webflow">
+<meta name="description" content="di module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS">
 
-<title>Pengenalan Webflow sebagai Front-end Framework</title>
+<title>Membangun Web dengan HTML CSS dan Javascript</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/img/logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eaa2254f94ebccae57d7eac2e3bee21e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../Materi/webflow_landing_page/landing_page_with_webflow.html" rel="next">
+<link href="../../Materi/git_for_beginner/001_pendahuluan.html" rel="prev">
+<link href="../../assets/img/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-eaa2254f94ebccae57d7eac2e3bee21e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,12 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../assets/styles.css">
+<link rel="stylesheet" href="../../assets/styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -83,8 +82,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/logo_cropped.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/img/logo_cropped.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -123,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Pengenalan Webflow sebagai Front-end Framework</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Membuat Landing Page Dengan Webflow</li><li class="breadcrumb-item"><a href="../../Materi/html_css_js_for_beginner/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li><li class="breadcrumb-item"><a href="../../Materi/html_css_js_for_beginner/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -140,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pendahuluan</span></a>
   </div>
 </li>
@@ -164,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Materi/git_for_beginner/001_pendahuluan.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Materi/git_for_beginner/001_pendahuluan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pendahuluan</span></a>
   </div>
 </li>
@@ -172,16 +171,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Membangun Web dengan HTML CSS dan Javascript</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Materi/html_css_js_for_beginner/html_css_for_beginner.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Materi/html_css_js_for_beginner/html_css_for_beginner.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Membangun Web dengan HTML CSS dan Javascript</span></a>
   </div>
 </li>
@@ -198,13 +197,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Materi/webflow_landing_page/landing_page_with_webflow.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Materi/webflow_landing_page/landing_page_with_webflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pengenalan Webflow sebagai Front-end Framework</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Materi/webflow_landing_page/webflow_for_beginners.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Materi/webflow_landing_page/webflow_for_beginners.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Pengenalan Webflow sebagai Front-end Framework</span></a>
   </div>
 </li>
@@ -223,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Praktek/praktek_landing_page_webflow.html" class="sidebar-item-text sidebar-link">
+  <a href="../../Praktek/praktek_landing_page_webflow.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Live Session - Membuat Responsive Landing Page dengan Webflow</span></a>
   </div>
 </li>
@@ -231,13 +230,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../source_code.html" class="sidebar-item-text sidebar-link">
+  <a href="../../source_code.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Source Code Project</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../submission.html" class="sidebar-item-text sidebar-link">
+  <a href="../../submission.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Submission</span></a>
   </div>
 </li>
@@ -251,37 +250,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#landing-page" id="toc-landing-page" class="nav-link active" data-scroll-target="#landing-page">Landing Page</a>
+  <li><a href="#mengenal-dunia-web-dan-html" id="toc-mengenal-dunia-web-dan-html" class="nav-link active" data-scroll-target="#mengenal-dunia-web-dan-html">Mengenal Dunia Web dan HTML</a>
   <ul>
-  <li><a href="#what-is-landing-page" id="toc-what-is-landing-page" class="nav-link" data-scroll-target="#what-is-landing-page">What is Landing Page</a></li>
-  <li><a href="#conventional-landing-page" id="toc-conventional-landing-page" class="nav-link" data-scroll-target="#conventional-landing-page">Conventional Landing Page </a></li>
-  <li><a href="#modern-landing-page" id="toc-modern-landing-page" class="nav-link" data-scroll-target="#modern-landing-page">Modern Landing Page</a></li>
+  <li><a href="#web---dunia-lain-yang-melingkupi-dunia-kita" id="toc-web---dunia-lain-yang-melingkupi-dunia-kita" class="nav-link" data-scroll-target="#web---dunia-lain-yang-melingkupi-dunia-kita">Web - Dunia <strong><em>Lain</em></strong> yang Melingkupi Dunia Kita</a></li>
+  <li><a href="#struktur-dasar-html" id="toc-struktur-dasar-html" class="nav-link" data-scroll-target="#struktur-dasar-html">Struktur Dasar HTML</a></li>
+  <li><a href="#semantik-html" id="toc-semantik-html" class="nav-link" data-scroll-target="#semantik-html">Semantik HTML</a></li>
+  <li><a href="#formulir-html" id="toc-formulir-html" class="nav-link" data-scroll-target="#formulir-html">Formulir HTML</a></li>
   </ul></li>
-  <li><a href="#django-webflow" id="toc-django-webflow" class="nav-link" data-scroll-target="#django-webflow">Django &amp; Webflow</a>
+  <li><a href="#tampil-makin-stylish-dengan-css" id="toc-tampil-makin-stylish-dengan-css" class="nav-link" data-scroll-target="#tampil-makin-stylish-dengan-css">Tampil Makin Stylish dengan CSS</a>
   <ul>
-  <li><a href="#webflow" id="toc-webflow" class="nav-link" data-scroll-target="#webflow">Webflow</a></li>
-  <li><a href="#for-designer-or-developer" id="toc-for-designer-or-developer" class="nav-link" data-scroll-target="#for-designer-or-developer">For Designer or Developer?</a></li>
-  <li><a href="#create-first-landing-page-in-webflow" id="toc-create-first-landing-page-in-webflow" class="nav-link" data-scroll-target="#create-first-landing-page-in-webflow">Create first Landing Page in Webflow</a></li>
-  <li><a href="#export-webflow-code-to-html" id="toc-export-webflow-code-to-html" class="nav-link" data-scroll-target="#export-webflow-code-to-html">Export Webflow Code to HTML</a></li>
+  <li><a href="#apa-itu-css" id="toc-apa-itu-css" class="nav-link" data-scroll-target="#apa-itu-css">Apa itu CSS?</a></li>
+  <li><a href="#selector-dalam-css" id="toc-selector-dalam-css" class="nav-link" data-scroll-target="#selector-dalam-css"><strong>selector</strong> dalam CSS</a></li>
+  <li><a href="#property-dalam-css" id="toc-property-dalam-css" class="nav-link" data-scroll-target="#property-dalam-css"><strong>property</strong> dalam CSS</a></li>
+  <li><a href="#layout-dalam-css" id="toc-layout-dalam-css" class="nav-link" data-scroll-target="#layout-dalam-css"><strong>layout</strong> dalam CSS</a></li>
+  <li><a href="#responsive-design" id="toc-responsive-design" class="nav-link" data-scroll-target="#responsive-design">Responsive Design</a></li>
   </ul></li>
-  <li><a href="#integration" id="toc-integration" class="nav-link" data-scroll-target="#integration">Integration</a>
+  <li><a href="#power-up-html-dengan-javascript" id="toc-power-up-html-dengan-javascript" class="nav-link" data-scroll-target="#power-up-html-dengan-javascript">Power-up HTML dengan Javascript</a>
   <ul>
-  <li><a href="#integrate-webflow-site-to-be-django-template" id="toc-integrate-webflow-site-to-be-django-template" class="nav-link" data-scroll-target="#integrate-webflow-site-to-be-django-template">Integrate Webflow site to be Django Template</a></li>
+  <li><a href="#apa-itu-javascript" id="toc-apa-itu-javascript" class="nav-link" data-scroll-target="#apa-itu-javascript">Apa itu Javascript</a></li>
+  <li><a href="#variabel-dan-tipe-data-dalam-javascript" id="toc-variabel-dan-tipe-data-dalam-javascript" class="nav-link" data-scroll-target="#variabel-dan-tipe-data-dalam-javascript">Variabel dan Tipe Data dalam Javascript</a></li>
+  <li><a href="#control-flow-dalam-javascript" id="toc-control-flow-dalam-javascript" class="nav-link" data-scroll-target="#control-flow-dalam-javascript">Control Flow dalam Javascript</a></li>
+  <li><a href="#fungsi-dalam-javascript" id="toc-fungsi-dalam-javascript" class="nav-link" data-scroll-target="#fungsi-dalam-javascript">Fungsi dalam Javascript</a></li>
+  <li><a href="#manipulasi-dom-dengan-javascript" id="toc-manipulasi-dom-dengan-javascript" class="nav-link" data-scroll-target="#manipulasi-dom-dengan-javascript">Manipulasi DOM dengan Javascript</a></li>
+  <li><a href="#event-handling" id="toc-event-handling" class="nav-link" data-scroll-target="#event-handling">Event Handling</a></li>
   </ul></li>
+  <li><a href="#latihan-membuat-website-interaktif-dengan-javascript" id="toc-latihan-membuat-website-interaktif-dengan-javascript" class="nav-link" data-scroll-target="#latihan-membuat-website-interaktif-dengan-javascript">Latihan Membuat Website Interaktif dengan Javascript</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Membuat Landing Page Dengan Webflow</li><li class="breadcrumb-item"><a href="../../Materi/html_css_js_for_beginner/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li><li class="breadcrumb-item"><a href="../../Materi/html_css_js_for_beginner/html_css_for_beginner.html">Membangun Web dengan HTML CSS dan Javascript</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Pengenalan Webflow sebagai Front-end Framework</h1>
+<h1 class="title">Membangun Web dengan HTML CSS dan Javascript</h1>
   </div>
 
 <div>
   <div class="description">
-    di module ini kamu akan belajar tentang landing page dan bagaimana membangun landing page pertamamu dengan webflow
+    di module ini kita akan belajar tentang dasar-dasar HTML dan CSS serta praktek membuat halaman web sederhana dengan HTML dan CSS
   </div>
 </div>
 
@@ -298,86 +305,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="landing-page" class="level1">
-<h1>Landing Page</h1>
-<p>Your Bussiness Terace</p>
-<section id="what-is-landing-page" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-landing-page">What is Landing Page</h2>
-<p>a landing page, sometimes known as a <strong>lead capture page</strong>, <strong>single property page</strong>, <strong>static page</strong>, <strong>squeeze page</strong> or a <strong>destination page</strong>, is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email or an online advertisement</p>
+<section id="mengenal-dunia-web-dan-html" class="level1">
+<h1>Mengenal Dunia Web dan HTML</h1>
+<section id="web---dunia-lain-yang-melingkupi-dunia-kita" class="level2">
+<h2 class="anchored" data-anchor-id="web---dunia-lain-yang-melingkupi-dunia-kita">Web - Dunia <strong><em>Lain</em></strong> yang Melingkupi Dunia Kita</h2>
 </section>
-<section id="conventional-landing-page" class="level2">
-<h2 class="anchored" data-anchor-id="conventional-landing-page">Conventional Landing Page <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">timeline
-  2003 : Landing pages originated with the IT departments of Microsoft in response to poor online sales of Office.
-  2009 : several startups, including Unbounce, were formed to simplify and streamline the process.
-       : The rise of cloud computing and e-commerce provided ideal conditions for these startups to flourish.
-       : Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.
-</pre>
+<section id="struktur-dasar-html" class="level2">
+<h2 class="anchored" data-anchor-id="struktur-dasar-html">Struktur Dasar HTML</h2>
+</section>
+<section id="semantik-html" class="level2">
+<h2 class="anchored" data-anchor-id="semantik-html">Semantik HTML</h2>
+</section>
+<section id="formulir-html" class="level2">
+<h2 class="anchored" data-anchor-id="formulir-html">Formulir HTML</h2>
+</section>
+</section>
+<section id="tampil-makin-stylish-dengan-css" class="level1">
+<h1>Tampil Makin Stylish dengan CSS</h1>
+<section id="apa-itu-css" class="level2">
+<h2 class="anchored" data-anchor-id="apa-itu-css">Apa itu CSS?</h2>
+</section>
+<section id="selector-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="selector-dalam-css"><strong>selector</strong> dalam CSS</h2>
+</section>
+<section id="property-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="property-dalam-css"><strong>property</strong> dalam CSS</h2>
+</section>
+<section id="layout-dalam-css" class="level2">
+<h2 class="anchored" data-anchor-id="layout-dalam-css"><strong>layout</strong> dalam CSS</h2>
+</section>
+<section id="responsive-design" class="level2">
+<h2 class="anchored" data-anchor-id="responsive-design">Responsive Design</h2>
+</section>
+</section>
+<section id="power-up-html-dengan-javascript" class="level1">
+<h1>Power-up HTML dengan Javascript</h1>
+<section id="apa-itu-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="apa-itu-javascript">Apa itu Javascript</h2>
+</section>
+<section id="variabel-dan-tipe-data-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="variabel-dan-tipe-data-dalam-javascript">Variabel dan Tipe Data dalam Javascript</h2>
+</section>
+<section id="control-flow-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="control-flow-dalam-javascript">Control Flow dalam Javascript</h2>
+</section>
+<section id="fungsi-dalam-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="fungsi-dalam-javascript">Fungsi dalam Javascript</h2>
+</section>
+<section id="manipulasi-dom-dengan-javascript" class="level2">
+<h2 class="anchored" data-anchor-id="manipulasi-dom-dengan-javascript">Manipulasi DOM dengan Javascript</h2>
+</section>
+<section id="event-handling" class="level2">
+<h2 class="anchored" data-anchor-id="event-handling">Event Handling</h2>
+</section>
+</section>
+<section id="latihan-membuat-website-interaktif-dengan-javascript" class="level1">
+<h1>Latihan Membuat Website Interaktif dengan Javascript</h1>
+<div id="livecodes">
+
 </div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="modern-landing-page" class="level2">
-<h2 class="anchored" data-anchor-id="modern-landing-page">Modern Landing Page</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/modern_landing_page.png" class="img-fluid figure-img"></p>
-<figcaption>Modern Landing Page</figcaption>
-</figure>
-</div>
-</section>
-</section>
-<section id="django-webflow" class="level1">
-<h1>Django &amp; Webflow</h1>
-<section id="webflow" class="level2">
-<h2 class="anchored" data-anchor-id="webflow">Webflow</h2>
-<div class="{div}">
-<p><strong>bringing development superpowers to everyone.</strong></p>
-</div>
-</section>
-<section id="for-designer-or-developer" class="level2">
-<h2 class="anchored" data-anchor-id="for-designer-or-developer">For Designer or Developer?</h2>
-<div class="{div}">
-<p><strong>for designer with minor coding background and developer with minor design background</strong></p>
-</div>
-</section>
-<section id="create-first-landing-page-in-webflow" class="level2">
-<h2 class="anchored" data-anchor-id="create-first-landing-page-in-webflow">Create first Landing Page in Webflow</h2>
-<div class="{div}">
-<p>https://tapak-landing-page.webflow.io/</p>
-</div>
-</section>
-<section id="export-webflow-code-to-html" class="level2">
-<h2 class="anchored" data-anchor-id="export-webflow-code-to-html">Export Webflow Code to HTML</h2>
-<ul>
-<li>Paid - Subscribe to premium member <img src="assets/webflow_pricing.png" class="img-fluid" alt="Webflow Pricing"></li>
-<li>Free - Download the HTML page</li>
-</ul>
-</section>
-</section>
-<section id="integration" class="level1">
-<h1>Integration</h1>
-<section id="integrate-webflow-site-to-be-django-template" class="level2">
-<h2 class="anchored" data-anchor-id="integrate-webflow-site-to-be-django-template">Integrate Webflow site to be Django Template</h2>
 
 
 </section>
-</section>
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>https://en.wikipedia.org/wiki/Landing_page<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -777,7 +768,20 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../Materi/git_for_beginner/001_pendahuluan.html" class="pagination-link" aria-label="Pendahuluan">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Pendahuluan</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../Materi/webflow_landing_page/landing_page_with_webflow.html" class="pagination-link" aria-label="Pengenalan Webflow sebagai Front-end Framework">
+        <span class="nav-page-text">Pengenalan Webflow sebagai Front-end Framework</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
+<script type="module" src="../assets/js/livecodes.js"></script>
 
 
 
